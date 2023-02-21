@@ -1,0 +1,130 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+}
+
+/*================ Header ================ */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(67, 67, 68);
+    z-index: 100;
+}
+.header nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .nav-list {
+    display: flex;
+    align-items: center;
+    padding: 0.8rem 0;
+}
+
+.header .nav-item {
+    margin: 0 1.4rem;
+}
+.header .nav-item:first-child {
+    margin-left: 0;
+}
+.header .nav-item:last-child {
+    margin-right: 0;
+}
+
+.header .nav-item a img {
+    height: 2rem;
+    width: 2rem;
+}
+
+.header .nav-item a:hover {
+    opacity: 1;
+}
+
+.header .nav-item a {
+    color: #dadada;
+    text-decoration: none;
+    opacity: 0.9;
+}
+/*================ Hero ================ */
+
+.hero-item {
+    position: relative;
+    height: 110vh;
+    color: white;
+    background-color: black;
+}
+.hero-item:nth-child(2) {
+    color: black;
+    background: #fbfbfd;
+}
+.hero-item .desc {
+    position: absolute;
+    left: 50%;
+    top: 70px;
+    transform: translateX(-50%);
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+}
+
+.hero-item .desc h2 {
+    font-size: 56px;
+    line-height: 1.07143;
+    font-weight: 600;
+    letter-spacing: -0.005em;
+    width: 80rem;
+}
+.hero-item .desc h3 {
+    font-size: 28px;
+    line-height: 1.10722;
+    font-weight: 400;
+    letter-spacing: 0.004em;
+    margin-top: 0.8rem;
+    width: 50rem;
+}
+
+.hero-item .cta-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-item .desc a {
+    display: inline-block;
+    font-size: 21px;
+    line-height: 1.381;
+    font-weight: 400;
+    letter-spacing: 0.011em;
+    margin: 1rem 2rem;
+    text-decoration: none;
+    color: rgb(38, 141, 238);
+}
+.hero-item .desc a:hover {
+    text-decoration: underline;
+}
+
+.hero-item img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    bottom: 0;
+}
+
+/*================ Promo ================ */
+/*================ Movie ================ */
