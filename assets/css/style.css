@@ -61,7 +61,7 @@ body {
 
 .hero-item {
     position: relative;
-    height: 110vh;
+    height: 100vh;
     color: white;
     background-color: black;
 }
@@ -120,7 +120,7 @@ body {
 
 .hero-item img {
     width: 100%;
-    height: 100vh;
+    height: 85vh;
     object-fit: cover;
     position: absolute;
     bottom: 0;
