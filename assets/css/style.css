@@ -1,29 +1,16 @@
-*,
-*:before,
-*:after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font: inherit;
-}
-html {
-    font-size: 62.5%;
-}
-body {
-    font-family: "Inter", Arial, Helvetica, sans-serif;
-    font-weight: 400;
-}
-
 /*================ Hero ================ */
+.hero {
+    margin-top: -1.4rem;
+}
 
 .hero-item {
     position: relative;
     height: 100vh;
-    color: white;
+    color: var(--color-text-white);
     background-color: black;
 }
 .hero-item:nth-child(2) {
-    color: black;
+    color: var(--color-text-black);
     background: #fbfbfd;
 }
 .hero-item .desc {
@@ -74,6 +61,7 @@ body {
     margin: 1.2rem 0 0;
     padding: 0;
     flex-wrap: nowrap;
+    color: var(--color-text-white);
 }
 .promo .col {
     padding: 0 0rem;
