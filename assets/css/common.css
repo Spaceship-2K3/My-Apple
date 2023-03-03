@@ -78,6 +78,18 @@ main {
     color: var(--color-text-black);
 }
 
+.f-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-gradient {
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
 /*================ Header ================ */
 .header {
     position: fixed;
@@ -133,7 +145,6 @@ main {
     font-size: 1rem;
     line-height: 1.3;
     font-size: 1.2rem;
-    margin-top: 20rem;
 }
 
 .footer .grid.wide {
@@ -174,7 +185,7 @@ main {
     text-decoration: underline;
 }
 
-.footer .directory .title {
+.footer .directory .footer-title {
     color: var(--color-text-black);
     font-weight: 600;
 }
