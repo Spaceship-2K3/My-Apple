@@ -19,10 +19,11 @@ html {
 body {
     font-family: "Inter", Arial, Helvetica, sans-serif;
     font-weight: 400;
+    color: var(--color-text-black);
 }
 
 main {
-    padding-top: 5.2rem;
+    padding-top: 3.8rem;
 }
 
 /* btn */
@@ -53,13 +54,13 @@ main {
 }
 .cta-links a {
     display: inline-block;
-    font-size: 2rem;
+    font-size: 1.9rem;
     line-height: 1.381;
-    font-weight: 400;
-    letter-spacing: 0.011em;
+    letter-spacing: -0.08rem;
     margin: 1rem 2rem;
     text-decoration: none;
     color: var(--color-link);
+    font-weight: 400;
 }
 .cta-links i {
     font-size: 1.75rem;
@@ -88,6 +89,14 @@ main {
     background-clip: text;
     color: transparent;
     -webkit-background-clip: text;
+}
+
+.heading-1 {
+}
+.heading-2 {
+    line-height: 1.07143;
+    font-weight: 600;
+    letter-spacing: -0.005em;
 }
 
 /*================ Header ================ */
