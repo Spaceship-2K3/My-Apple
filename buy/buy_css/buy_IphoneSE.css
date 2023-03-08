@@ -110,24 +110,6 @@
     justify-content: space-between;
 }
 
-.product__desc .pagination button {
-    border: none;
-    width: 4.8rem;
-    margin: 0 2rem;
-    height: 4.8rem;
-    border-radius: 100rem;
-    font-size: 2.6rem;
-    padding: 1.4rem;
-    background-color: rgba(210, 210, 215, 0.64);
-    color: rgba(0, 0, 0, 0.56);
-    cursor: pointer;
-}
-
-.product__desc .pagination button:hover {
-    background-color: rgba(210, 210, 215, 0.54);
-    color: rgba(0, 0, 0, 0.66);
-}
-
 .product__desc .dots {
     position: absolute;
     bottom: 1.4rem;
@@ -170,68 +152,6 @@
 
 .product__desc strong {
     color: var(--color-text-black);
-}
-
-/* Choose model, choose storage */
-.product_desc__banner input:checked ~ label,
-.product__desc-storage input:checked ~ label {
-    border-color: #0071e3;
-}
-.product_desc__banner label,
-.product__desc-storage .choose_storage-item label {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    border: 1.6px solid var(--color-border-white);
-    padding: 1.4rem;
-    border-radius: 1.2rem;
-    margin: 1.4rem 0;
-    cursor: pointer;
-    min-height: 8rem;
-}
-
-.choose_storage-item .content_storage h3,
-.product_desc__banner label h3 {
-    font-size: 1.5rem;
-    line-height: 1.23536;
-    font-weight: 500;
-    letter-spacing: -0.022em;
-    margin-bottom: 0.8rem;
-}
-
-.choose_storage-item .storage_price {
-    text-align: right;
-    line-height: 1.33337;
-    font-weight: 400;
-    letter-spacing: -0.01em;
-}
-
-/* Choose color */
-.product__desc-color .choose_color {
-    display: flex;
-    margin: 1.4rem 0;
-}
-
-.choose_color-item img {
-    width: 2.8rem;
-    height: 2.8rem;
-    border-radius: 100rem;
-    object-fit: cover;
-}
-.choose_color-item label {
-    width: 3.8rem;
-    height: 3.8rem;
-    border-radius: 100rem;
-    margin-right: 1rem;
-    display: inline-flex;
-    justify-content: space-between;
-    align-items: center;
-    cursor: pointer;
-    padding: 0.1rem 0.3rem;
-    border: 1.6px solid transparent;
-}
-.choose_color-item input:checked ~ label {
-    border-color: #0071e3;
 }
 
 /* product_desc__banner */
@@ -409,34 +329,4 @@
 .product_type-desc-item-FaceID,
 .product_type-desc-item-5G {
     min-height: 10.8rem;
-}
-
-/* buy trip  */
-.buy-trip {
-    background-color: #f0f0f0;
-    padding: 5.8rem 0;
-    margin-top: 10rem;
-    text-align: center;
-}
-
-.buy-trip h3,
-.buy-trip p,
-.buy-trip a {
-    font-size: 1.8rem;
-    line-height: 1.381002381;
-    letter-spacing: 0.011em;
-    margin: 1.2rem 0;
-}
-
-.buy-trip h3 {
-    font-weight: 600;
-}
-
-.buy-trip a {
-    color: var(--color-link);
-    text-decoration: none;
-}
-
-.buy-trip a:hover {
-    text-decoration: underline;
 }
