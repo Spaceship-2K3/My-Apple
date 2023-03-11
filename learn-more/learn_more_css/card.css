@@ -1,7 +1,7 @@
 /* Hero */
 
 .hero .wrap-img {
-    background-image: url(../img/hero_card.png);
+    background-image: url(../img/Card/hero_card.png);
     background-position: 100%;
     width: 100%;
     height: 84vh;
@@ -85,9 +85,6 @@
 }
 
 /* Features */
-.features .grid.wide {
-    max-width: 80rem;
-}
 
 .feature-item {
     height: 68rem;
@@ -130,7 +127,7 @@
 }
 
 .feature-item-1 .feature-img {
-    background-image: url(../img/create_by_ip_card.jpg);
+    background-image: url(../img/Card/create_by_ip_card.jpg);
     padding-top: 60%;
     background-size: 82.4rem 57.7rem;
 }
@@ -166,7 +163,6 @@
             rgba(235, 85, 81, 0) 75%
         );
 }
-
 .feature-item-2 .typography {
     font-size: 9.5rem;
     font-weight: 700;
@@ -174,14 +170,12 @@
     padding: 4.6rem;
     line-height: 0.991;
 }
-
 .feature-item-3 .feature-img {
-    background-image: url(../img/card_balance.jpg);
+    background-image: url(../img/Card/card_balance.jpg);
     background-size: 345px 345px;
     padding-top: 100%;
     margin: 2.6rem 0 0 1.6rem;
 }
-
 .feature-item-3 .typography {
     font-size: 3.8rem;
     padding-left: 2.8rem;
@@ -189,7 +183,6 @@
     line-height: 1.1;
     margin-top: -3rem;
 }
-
 .feature-item-4 {
     background-color: black;
 }
@@ -202,9 +195,8 @@
     padding: 26rem 0 0 3.8rem;
     margin-top: -28rem;
 }
-
 .feature-item-4 .feature-img {
-    background-image: url(../img/Unlimited_card.jpg);
+    background-image: url(../img/Card/Unlimited_card.jpg);
     padding-top: 38%;
     background-size: contain;
     background-position: 56rem 1.6rem;
@@ -222,7 +214,7 @@
 }
 
 .feature-item-5 .feature-img {
-    background-image: url(../img/card_family.jpg);
+    background-image: url(../img/Card/card_family.jpg);
     padding-top: 50%;
     background-size: contain;
     background-position-y: 2rem;
@@ -234,7 +226,6 @@
     padding-left: 3.8rem;
     letter-spacing: -0.012em;
 }
-
 .feature-item-5 p {
     font-size: 2.8rem;
     line-height: 1.23536;
@@ -242,7 +233,6 @@
     letter-spacing: -0.022em;
     padding-left: 3.8rem;
 }
-
 .feature-item-6 {
     background: radial-gradient(
             ellipse at 5% 5%,
@@ -267,28 +257,24 @@
     padding: 4rem 0 0 3.8rem;
     color: var(--color-text-white);
 }
-
 .feature-item-6 .feature-img {
     background-image: url(../img/daily_cash_hand__card.png);
     padding-top: 50%;
     background-size: contain;
     background-position: right 0;
 }
-
 .feature-item-6 .typography {
     font-size: 7.8rem;
     line-height: 1.05;
     font-weight: 700;
     letter-spacing: -0.015em;
 }
-
 .feature-item-6 {
     font-size: 1.6rem;
     line-height: 1.19048;
     font-weight: 700;
     letter-spacing: 0.011em;
 }
-
 .feature-item-7 {
     padding: 4.8rem 3.8rem 0 4.8rem;
 }
@@ -297,11 +283,9 @@
     display: flex;
     justify-content: space-between;
 }
-
 .mastercard img {
     width: 28%;
 }
-
 .feature-item-7 .typography {
     background: linear-gradient(137deg, #636263 0%, #f0f0f0 50%, #5b5a5a 100%);
     background-clip: text;
@@ -313,7 +297,6 @@
     letter-spacing: -0.005em;
     margin-top: 5rem;
 }
-
 .feature-item-8 {
     padding: 2rem 4rem 4rem 4rem;
     background: linear-gradient(
@@ -329,7 +312,6 @@
         rgba(0, 0, 0, 0)
     );
 }
-
 .feature-item-8 .typography {
     font-size: 6.8rem;
     line-height: 1.05556;
@@ -337,22 +319,19 @@
     letter-spacing: -0.012em;
     color: var(--color-text-white);
 }
-
 .feature-item-8 img {
     width: 58%;
     margin: 0 auto;
     display: block;
 }
-
 .wallet {
-    background-image: url(../img/footer_gradient__card.jpg);
+    background-image: url(../img/Card/footer_gradient__card.jpg);
     width: 100%;
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 3.2rem;
 }
-
 .wallet-info {
     flex-direction: column;
     width: 57rem;
@@ -361,6 +340,7 @@
 .wallet-info img {
     width: 7.6rem;
 }
+
 .wallet-info .wallet-title {
     font-size: 7.2rem;
     line-height: 1.05556;
@@ -368,7 +348,6 @@
     letter-spacing: -0.06rem;
     margin-top: 2.6rem;
 }
-
 .wallet-info p {
     margin-top: 1.2rem;
     font-size: 2.4rem;
@@ -377,7 +356,6 @@
     font-weight: 700;
     letter-spacing: 0.009em;
 }
-
 .wallet-info .btn {
     font-size: 1.5rem;
     line-height: 1.17648;
@@ -389,14 +367,10 @@
     background-color: white;
     padding: 0 1.6rem;
 }
-
-/* Extension */
-
 .extension {
     padding: 12.8rem 0;
     background-color: rgb(232, 232, 237);
 }
-
 .extension-item {
     border-radius: 23px;
     padding: 58px 20px;
@@ -405,13 +379,11 @@
     min-height: 48rem;
     color: var(--color-text-white);
 }
-
 .extension-item:hover {
     box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
         rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
         rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
 }
-
 .extension-item p {
     margin: 2.6rem 0 4rem;
     font-size: 1.8rem;
@@ -419,7 +391,6 @@
     font-weight: 600;
     letter-spacing: -0.022em;
 }
-
 .extension-item-1 {
     background-color: #d9d6cc;
     color: var(--color-text-black);

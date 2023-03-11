@@ -1,9 +1,9 @@
 /*.banner-advertising  */
 .banner-advertising {
-    margin-top: 1.6rem;
+    max-width: 98rem;
+    margin: 1.6rem auto 0;
 }
-.banner-advertising .wide.grid {
-    width: 97.8rem;
+.banner-advertising {
     background-color: var(--color-text-white);
     padding: 1.4rem 2.4rem;
     border-radius: 1.2rem;
@@ -37,12 +37,6 @@
     margin: 6rem 0;
 }
 
-.product .grid.wide,
-.buy-trip .grid.wide,
-.product_different .grid.wide,
-.product_show .grid.wide {
-    width: 111rem;
-}
 /* product__heading */
 .product__heading span {
     color: #bf4800;
@@ -96,6 +90,7 @@
 }
 .product__desc .galery {
     width: 100%;
+    box-shadow: var(--box-shadow-product);
     border-radius: 1.6rem;
 }
 
@@ -197,7 +192,7 @@
     background-color: #fbfbfd;
     margin: 4rem 0 2.6rem;
     border-radius: 1.2rem;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    box-shadow: var(--box-shadow-product-show);
 }
 
 .product_show-imgs img {

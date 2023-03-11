@@ -8,8 +8,11 @@
     max-width: 1200px;
     margin: 0 auto;
 }
-.grid.wide.small-wide {
+.grid.wide.middle-wide {
     max-width: 115rem;
+}
+.grid.wide.small-wide {
+    max-width: 98rem;
 }
 
 .row {

@@ -195,9 +195,7 @@
     text-align: center;
     color: var(--color-text-white);
 }
-.billboards .grid.wide {
-    width: 99.8rem;
-}
+
 .billboards .row {
     gap: 1.2rem;
 }
