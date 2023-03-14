@@ -1,0 +1,293 @@
+body,
+.footer,
+.footer .directory .footer-title,
+.footer .directory a {
+    background-color: black;
+    color: var(--color-text-white);
+}
+.footer .directory a {
+    color: #bdbdbd;
+}
+
+.ribbon-discount {
+    background-color: #1d1d1f;
+    color: var(--color-text-white);
+}
+
+/* hero-title */
+.hero-title {
+    padding-top: 2rem;
+}
+.hero-title h1 {
+    font-size: 6.8rem;
+    line-height: 1.17;
+    font-weight: 600;
+    letter-spacing: -0.012em;
+    text-align: center;
+}
+.hero-title_img {
+    width: 100%;
+}
+
+/* buy-headline */
+.buy-headline {
+    text-align: center;
+    padding: 4.8rem 0;
+    background-color: #161617;
+}
+.buy-headline h3 {
+    font-size: 3.2rem;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: 0.004em;
+}
+
+.buy-headline p {
+    color: #86868b;
+    font-size: 1.8rem;
+    line-height: 1.4211026316;
+    font-weight: 600;
+    letter-spacing: 0.012em;
+    margin: 2rem 0 3rem 0;
+}
+.buy-headline .btn {
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+
+/* dynamic island */
+
+.dynamic-island {
+    padding: 4.8rem 0;
+}
+
+.dynamic-island p,
+.camera-48mp p {
+    font-size: 1.8rem;
+    line-height: 1.2105263158;
+    font-weight: 600;
+    letter-spacing: 0.012em;
+    color: #86868b;
+}
+
+.dynamic-island strong,
+.camera-48mp strong {
+    color: #cecece;
+}
+.dynamic-island h2,
+.chip .hero-chip h2,
+.battery-hero h2,
+.film-hero h2 {
+    font-size: 5.6rem;
+    line-height: 1.0714285714;
+    font-weight: 600;
+    letter-spacing: -0.005em;
+    margin-bottom: 6.8rem;
+}
+
+.dynamic-island__hero {
+    width: 56%;
+    display: block;
+    margin: 6rem auto 8.6rem;
+}
+
+.dynamic-island__maps p {
+    margin-left: 8rem;
+}
+
+.dynamic-island__integrated {
+    margin-top: 16rem;
+}
+
+.dynamic-island__integrated p {
+    margin: 0 0 8rem 8rem;
+}
+
+.dynamic-island__integrated img {
+    width: 100%;
+}
+
+/* camera-48mp */
+.camera-48mp,
+.chip,
+.battery,
+.film {
+    margin: 10rem 0;
+}
+
+.camera-48mp__hero,
+.film-hero {
+    width: 100%;
+    height: 130vh;
+    background-image: url(../img/Iphone/camera__48mp_ip14pro_learn_more.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.camera-48mp__hero h2 {
+    font-size: 5.6rem;
+    line-height: 1.0714285714;
+    font-weight: 600;
+    letter-spacing: -0.005em;
+    color: black;
+    padding: 4.8rem 0 0 8rem;
+}
+.camera-48mp .advanced-pixel {
+    margin: 8rem 0;
+}
+.camera-48mp .advanced-pixel img {
+    width: 80%;
+}
+
+.camera-48mp .shooting img {
+    width: 100%;
+    height: 42rem;
+    object-fit: cover;
+}
+
+.camera-48mp .camera-system {
+    margin: 8rem 0;
+}
+
+/* chip */
+.chip .hero-chip,
+.battery .battery-hero {
+    text-align: center;
+}
+
+.chip .hero-chip img {
+    width: 27%;
+}
+
+.chip .row {
+    margin-top: 4rem;
+}
+
+.chip strong,
+.battery strong {
+    font-size: 3rem;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: 0.004em;
+    color: #cecece;
+}
+
+.chip p,
+.battery p {
+    font-size: 1.8rem;
+    line-height: 1.1904761905;
+    font-weight: 600;
+    letter-spacing: 0.011em;
+    color: #86868b;
+}
+
+/* battery */
+.battery-hero h2 {
+    color: white;
+}
+.battery .battery-hero img {
+    width: 20%;
+}
+.magsafe {
+    margin-top: 12rem;
+    text-align: center;
+}
+.magsafe p,
+.magsafe strong {
+    font-size: 1.6rem;
+    line-height: 1.2105263158;
+    font-weight: 600;
+    letter-spacing: 0.012em;
+}
+
+.magsafe img {
+    margin-top: 5rem;
+    width: 33%;
+}
+
+/* film */
+.film-hero {
+    background-image: url(../img/Iphone/pro_video_v__ip_14pro_learnmore.jpg);
+    background-size: cover;
+}
+
+.film-hero-desc {
+    padding: 8rem 0 0 9rem;
+    color: #cecece;
+}
+.film-hero strong {
+    font-size: 24px;
+    line-height: 1.1666666667;
+    font-weight: 600;
+    letter-spacing: 0.009em;
+}
+
+.cinematic p {
+    margin: 14rem 0 0 8rem;
+}
+
+.cinematic p,
+.cinematic strong,
+.sos p {
+    font-size: 1.8rem;
+    line-height: 1.2105263158;
+    letter-spacing: 0.012em;
+    color: #86868b;
+    font-weight: 600;
+}
+
+.cinematic strong,
+.sos strong {
+    color: #cecece;
+}
+
+.cinematic .pro_video_hdr {
+    width: 70%;
+    display: block;
+    margin: 6rem auto 6rem;
+}
+.cinematic .pro_video_edit {
+    width: 80%;
+    display: block;
+    margin: 9rem auto 6rem;
+}
+
+/* water-resistance */
+.water-resistance {
+    background-image: url(../img/Iphone/dd_water_v__14pro_learnmore.jpg);
+    height: 120vh;
+    background-size: cover;
+    margin: 12rem 0;
+}
+
+/* sos */
+.sos {
+    margin-bottom: 10rem;
+}
+.sos-hero {
+    background-image: url(../img/Iphone/dd_emergency_sos_ip14pro_learnmore.jpg);
+    height: 120vh;
+    background-size: cover;
+}
+.sos-hero__desc {
+    padding: 8rem 0 0 14rem;
+}
+.sos-hero strong {
+    font-size: 2.4rem;
+    line-height: 1.1666666667;
+    font-weight: 600;
+    letter-spacing: 0.009em;
+}
+
+.sos-hero h2 {
+    font-size: 5.6rem;
+    line-height: 1.0714285714;
+    font-weight: 600;
+    letter-spacing: -0.005em;
+}
+
+.sos img {
+    width: 60%;
+    margin: 5rem 0 0 auto;
+    display: block;
+}

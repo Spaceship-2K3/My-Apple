@@ -145,7 +145,7 @@
 }
 
 .hero_apple-ultra-bgi {
-    background-image: url(../img/hero_ultra__watch-band.jpg);
+    background-image: url(../img/Watch/hero_ultra__watch-band.jpg);
     width: 100%;
     height: 587px;
     background-size: 1730px 587px;
@@ -170,7 +170,7 @@
     width: 38.1rem;
     height: 77.7rem;
     background-size: 38.1rem 77.7rem;
-    background-image: url(../img/hero_watch_series-8.jpg);
+    background-image: url(../img/Watch/hero_watch_series-8.jpg);
 }
 
 /* watch SE */
@@ -184,7 +184,7 @@
     height: 505px;
     background-size: 564px 505px;
     background-repeat: no-repeat;
-    background-image: url(../img/tile-watch-se__hero.jpg);
+    background-image: url(../img/Watch/tile-watch-se__hero.jpg);
     margin: 4rem 0;
 }
 
