@@ -173,12 +173,13 @@
 .feature-item-3 .feature-img {
     background-image: url(../img/Card/card_balance.jpg);
     background-size: 345px 345px;
-    padding-top: 100%;
+    padding-top: 85%;
     margin: 2.6rem 0 0 1.6rem;
 }
 .feature-item-3 .typography {
     font-size: 3.8rem;
     padding-left: 2.8rem;
+
     font-weight: 600;
     line-height: 1.1;
     margin-top: -3rem;
@@ -258,7 +259,7 @@
     color: var(--color-text-white);
 }
 .feature-item-6 .feature-img {
-    background-image: url(../img/daily_cash_hand__card.png);
+    background-image: url(../img/Card/daily_cash_hand__card.png);
     padding-top: 50%;
     background-size: contain;
     background-position: right 0;

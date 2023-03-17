@@ -1,0 +1,271 @@
+/* hero-title */
+.hero-title {
+    text-align: center;
+    background-color: #fff;
+}
+
+h1 {
+    font-size: 7.2rem;
+    line-height: 1;
+    font-weight: 600;
+    letter-spacing: -0.012em;
+    margin: 3rem 0;
+}
+
+h2 {
+    font-size: 5.6rem;
+    line-height: 1.0714285714;
+    font-weight: 600;
+    letter-spacing: -0.005em;
+}
+
+h3 {
+    font-size: 3.2rem;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: 0.004em;
+}
+
+.hero-title__img {
+    background-image: url(../img/Iphone/hero__ip14.jpg);
+    background-size: contain;
+    background-position: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    margin: 5rem 0;
+}
+
+/* buy-headline */
+.buy-headline {
+    text-align: center;
+    background-color: #f1f1f1;
+    padding: 7.2rem 0;
+}
+
+.buy-headline p {
+    margin: 2.4rem;
+    font-size: 1.8rem;
+    line-height: 1.4211026316;
+    font-weight: 600;
+    letter-spacing: 0.012em;
+}
+
+.buy-headline .btn {
+    font-size: 17px;
+    line-height: 1.1764805882;
+    font-weight: 400;
+    letter-spacing: -0.022em;
+    text-decoration: none;
+    padding: 1rem 2.5rem;
+}
+
+/* hero-bigScreen__img */
+.hero-bigScreen {
+    padding: 6rem 0;
+}
+.hero-bigScreen h2 {
+    text-align: center;
+}
+.hero-bigScreen__img {
+    background-image: url(../img/Iphone/biger_than_biger.jpg);
+    background-size: contain;
+    background-position: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    margin: 6.8rem 0 8rem 0;
+}
+
+.bigScreen-desc p,
+.tougher p,
+.action-mode p,
+.chip p,
+.pro-camera p,
+.car-crash p,
+.personalization p {
+    font-size: 1.8rem;
+    line-height: 1.2105263158;
+    font-weight: 600;
+    letter-spacing: 0.012em;
+    color: #86868b;
+}
+
+.bigScreen-desc strong,
+.tougher strong,
+.action-mode strong,
+.chip strong,
+.pro-camera strong,
+.car-crash strong,
+.personalization strong {
+    color: var(--color-text-black);
+}
+
+.bigScreen-desc__High {
+    margin: 12rem 0 5rem 0;
+}
+.bigScreen-desc__size_oled {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.battery,
+.water {
+    padding: 16rem 0;
+}
+/* water */
+.battery img,
+.water img,
+.Super5g img,
+.action-mode img {
+    display: block;
+    margin: 0 auto;
+    width: 64%;
+}
+
+/* tougher */
+.tougher h2 {
+    margin: 2rem 0 6rem 0;
+}
+
+.tougher-img {
+    width: 68.57%;
+    height: 632px;
+    background-image: url(../img/Iphone//dd_ceramic_shield_v__ip14_learnmore.jpg);
+    background-size: 600px;
+    background-repeat: no-repeat;
+    margin: 7rem auto 0;
+}
+
+/* super 5g */
+.Super5g h3 {
+    text-align: center;
+    margin-bottom: 1.4rem;
+    color: #f3b937;
+}
+
+/* action mode */
+
+.action-mode h2,
+.action-mode h3,
+.chip h2,
+.pro-camera h2,
+.car-crash h2,
+.car-crash h3 {
+    color: #fff;
+}
+
+.action-mode__hero,
+.chip__hero,
+.pro-camera__hero,
+.car-crash__hero {
+    padding-top: 4.8rem;
+    height: 1050px;
+    background-image: url(../img/Iphone/dd_action_mode_v__ip14_learnmore.jpg);
+    background-repeat: no-repeat;
+    background-size: 1400px 900px;
+}
+
+.action-mode p {
+    margin: 4rem 0;
+}
+
+.action-mode img,
+.chip img {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* chip */
+.chip {
+    margin: 12rem 0;
+}
+.chip__hero {
+    background-image: url(../img/Iphone/dd_chip_v__ip14_learnmore.jpg);
+}
+
+.chip-desc {
+    width: 80%;
+    margin: 4rem auto 0;
+}
+
+.chip p {
+    margin: 4rem 0;
+}
+
+/* pro-camera */
+.pro-camera__hero {
+    background-image: url(../img/Iphone/dd_camera_v__ip14_learnmore.jpg);
+}
+.pro-camera img {
+    width: 100%;
+}
+
+.pro-camera .row {
+    margin-top: 4rem;
+    justify-content: space-between;
+}
+
+.pro-camera .text-strong strong {
+    font-size: 3.2rem;
+    line-height: 1.2;
+    font-weight: 600;
+    letter-spacing: 0.004em;
+}
+
+/* car-crash */
+.car-crash {
+    margin-top: 10rem;
+}
+.car-crash__hero {
+    background-image: url(../img/Iphone/dd_crash_detection_v__ip14_learnmore.jpg);
+    padding-left: 4rem;
+}
+
+.feature-crash {
+    background-image: url(../img/Iphone/dd_crash_accurate__ip14_learnmore.jpg);
+    height: 780px;
+    width: 568px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 6rem 0;
+}
+
+.feature-crash p {
+    font-size: 3rem;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: 0.004em;
+    color: transparent;
+
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(
+        90deg,
+        #2ca2b4,
+        #5598de 24%,
+        #7f87ff 45%,
+        #f65aad 76%,
+        #ec3d43
+    );
+}
+
+/* personalization */
+.personalization {
+    margin: 16rem 0 10rem 0;
+}
+
+.personalization-hero {
+    width: 85%;
+    display: block;
+    margin: 5rem 0 0 auto;
+}
+
+.personalization__img-big {
+    width: 80%;
+    margin: 8.2rem 0;
+}
+
+.personalization__img-small {
+    width: 70%;
+}

@@ -49,6 +49,17 @@ main {
 }
 
 /* common */
+
+.text-center {
+    text-align: center;
+}
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
 .cta-links {
     display: flex;
     align-items: center;
