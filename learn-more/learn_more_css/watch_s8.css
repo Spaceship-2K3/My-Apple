@@ -27,6 +27,37 @@ h2 {
     letter-spacing: -0.04em;
 }
 
+/* buy-headline */
+.buy-headline {
+    text-align: center;
+    background-color: #323232;
+    padding: 7.2rem 0;
+}
+
+.buy-headline h3 {
+    font-size: 4.4rem;
+    line-height: 1.0714285714;
+    font-weight: 600;
+    letter-spacing: -0.005em;
+}
+
+.buy-headline p {
+    margin: 2rem 0;
+    font-size: 1.8rem;
+    line-height: 1.4211026316;
+    font-weight: 600;
+    letter-spacing: 0.012em;
+}
+
+.buy-headline .btn {
+    font-size: 17px;
+    line-height: 1.1764805882;
+    font-weight: 400;
+    letter-spacing: -0.022em;
+    text-decoration: none;
+    padding: 1rem 2.5rem;
+}
+
 /* feature */
 .feature {
     padding: 16rem 0;
