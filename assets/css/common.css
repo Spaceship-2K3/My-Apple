@@ -60,6 +60,11 @@ main {
 .text-right {
     text-align: right;
 }
+
+.img-block-center {
+    display: block;
+    margin: 0 auto;
+}
 .cta-links {
     display: flex;
     align-items: center;

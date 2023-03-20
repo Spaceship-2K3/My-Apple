@@ -1,0 +1,460 @@
+body {
+    background-color: #1d1d1f;
+    color: var(--color-text-white);
+}
+
+/* hero */
+.hero {
+    background-color: #000;
+    text-align: center;
+    padding-top: 4rem;
+}
+
+.hero h1 {
+    font-size: 7.2rem;
+    line-height: 0.7;
+    font-weight: 600;
+    margin: 4rem 0 10rem;
+}
+.hero .hero-img {
+    width: 85%;
+}
+
+h2 {
+    font-size: 5.6rem;
+    line-height: 1.0625;
+    font-weight: 600;
+    letter-spacing: -0.04em;
+}
+
+/* feature */
+.feature {
+    padding: 16rem 0;
+}
+
+.feature-links {
+    margin-top: 6rem;
+}
+
+.feature-links span {
+    margin-right: 3rem;
+    display: inline-flex;
+    align-items: center;
+}
+
+.feature-links i {
+    margin-left: 0.6rem;
+    font-size: 2.2rem;
+    line-height: 1.1666666667;
+}
+
+.feature-links a {
+    font-size: 24px;
+    line-height: 1.1666666667;
+    font-weight: 600;
+    color: var(--color-text-white);
+    text-decoration: none;
+}
+
+.feature-links a:hover {
+    text-decoration: underline;
+}
+
+/* watch-design */
+
+.watch-design {
+    background-color: #000;
+    overflow: hidden;
+}
+
+.watch-design__hero {
+    transform: translateX(45%);
+}
+
+.watch-design__hero img {
+    width: 100%;
+}
+
+.watch-design__title {
+    position: relative;
+    bottom: 30%;
+}
+
+.watch-design__title h2 {
+    font-size: 7.2rem;
+    line-height: 1.05;
+    font-weight: 600;
+    letter-spacing: -0.007em;
+}
+
+.watch-design__title h4 {
+    font-size: 2.4rem;
+    line-height: 1.1666666667;
+    font-weight: 600;
+    letter-spacing: 0.005em;
+    margin-bottom: 1.8rem;
+}
+
+.watch-design__desc,
+.design-screen p {
+    font-size: 1.8rem;
+    line-height: 1.2105263158;
+    font-weight: 600;
+    letter-spacing: 0.002em;
+    color: #868689;
+}
+
+.watch-design__desc {
+    margin: 75% 0 6rem 0;
+}
+
+.watch-design__desc strong,
+.design-screen strong {
+    color: white;
+}
+
+.watch-design__img img {
+    width: 100%;
+}
+
+/* design-screen */
+.design-screen {
+    background-color: #111111;
+    padding: 14rem 0;
+}
+
+.design-screen__desc {
+    margin-bottom: 6.8rem;
+}
+
+.design-screen__img img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+/* tougher */
+.tougher {
+    background-color: black;
+    border-radius: 2rem;
+    padding-top: 10rem;
+    margin-top: 8rem;
+}
+
+.tougher p {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.tougher h3 {
+    margin-top: 6.8rem;
+    color: #96ddfe;
+    font-size: 3.4rem;
+    line-height: 1.2;
+    font-weight: 600;
+    letter-spacing: 0em;
+}
+
+.tougher__img img {
+    margin-top: 8rem;
+    width: 96%;
+    border-radius: 0 0 2rem 2rem;
+}
+
+/* health */
+.health {
+    background-color: rgb(245, 245, 247);
+    color: var(--color-text-black);
+    padding: 14rem 0;
+}
+.health__hero h3 {
+    font-size: 3rem;
+    line-height: 1.25;
+    font-weight: 600;
+    letter-spacing: 0em;
+}
+.health__hero h4 {
+    font-size: 2.4rem;
+    line-height: 1.1666666667;
+    font-weight: 500;
+    letter-spacing: 0.005em;
+    margin-bottom: 0.8rem;
+}
+
+.health__hero img {
+    width: 68%;
+    display: block;
+    margin: 12rem auto;
+}
+
+/* health__feature */
+.health__feature {
+    margin-top: 14rem;
+}
+
+.health__feature-item {
+    border-radius: 2rem;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.14) 0px 1px 3px;
+    margin-top: 1.8rem;
+}
+
+.health__feature-item-1 h3 {
+    font-size: 5.6rem;
+    line-height: 1.0714285714;
+    font-weight: 600;
+    letter-spacing: -0.005em;
+}
+
+.health__feature-item-1 p,
+.health__link a {
+    font-size: 1.8rem;
+    line-height: 1.2105263158;
+    font-weight: 600;
+    letter-spacing: 0.012em;
+    margin: 2rem 0 3.2rem 0;
+    color: #6e6e73;
+    text-decoration: none;
+}
+.health__link a:hover {
+    text-decoration: underline;
+}
+.health__link i {
+    font-size: 1.4rem;
+    margin-left: 0.6rem;
+}
+
+.health__feature-item-1 strong,
+.health__link a {
+    color: var(--color-text-black);
+}
+
+.health__feature-item-1 img {
+    width: 100%;
+    max-height: 77rem;
+    object-fit: contain;
+}
+
+.health__feature-item-1 .col.l-6:nth-child(2) {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+
+.health__feature-item-2,
+.health__feature-item-5 {
+    padding: 4rem;
+}
+
+.health__feature-item-2 h4 {
+    font-size: 2.8rem;
+    line-height: 1.25;
+    font-weight: 600;
+    letter-spacing: 0.004em;
+    margin-bottom: 2.8rem;
+}
+
+.health__feature-item-2 img,
+.health__feature-item-5 img {
+    width: 50%;
+    display: block;
+    margin: 3.8rem auto 0;
+}
+
+.health__feature-item-3,
+.health__feature-item-6,
+.health__feature-item-5 {
+    background-color: #000;
+    padding: 4rem;
+    color: #868689;
+    font-size: 1.7rem;
+    line-height: 1.4705882353;
+    font-weight: 600;
+    letter-spacing: -0.022rem;
+    min-height: 56rem;
+}
+
+.health__feature-item-3 img,
+.health__feature-item-6 img {
+    width: 80%;
+    display: block;
+    margin: 3.8rem auto 0;
+}
+
+.health__feature-item-3 strong,
+.health__feature-item-6 strong {
+    color: white;
+}
+
+.health__feature-item-4 {
+    background: linear-gradient(90deg, #ec5e5c, #9858a7);
+    padding: 3.6rem;
+}
+
+.health__feature-item-4 h3 {
+    font-size: 2.8rem;
+    color: #fff;
+    line-height: 1.25;
+    font-weight: 600;
+    letter-spacing: 0.004em;
+    margin-left: 6%;
+}
+
+.health__feature-item-4 img {
+    width: 10%;
+    display: inline-block;
+}
+
+.health__feature-item-5 img {
+    margin-top: 18%;
+    width: 65%;
+}
+
+.health__feature-item-5 {
+    background-color: #f5f5f7;
+}
+
+.health__feature-item-5 strong {
+    color: black;
+}
+
+/* dream-machine */
+.dream-machine {
+    background-color: #f5f5f7;
+    overflow: hidden;
+    padding-bottom: 16rem;
+}
+
+.dream-machine__title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding-left: 18%;
+    color: #000;
+}
+
+.dream-machine__title p {
+    font-size: 1.8rem;
+    line-height: 1.2105263158;
+    font-weight: 600;
+    letter-spacing: 0.012em;
+    color: #6e6e73;
+    margin-top: 1.6rem;
+}
+
+.dream-machine__hero {
+    transform: translateX(7%);
+}
+
+.dream-machine__hero img {
+    width: 74rem;
+}
+
+/* fitness */
+.fitness {
+    background-image: url(../img/Watch/fitness_hero__watch_s8.jpg);
+    height: 120vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.fitness__tittle {
+    position: absolute;
+    right: 10%;
+    bottom: 10%;
+}
+
+.fitness__tittle p {
+    font-size: 2.2rem;
+    line-height: 1.1666666667;
+    font-weight: 600;
+    letter-spacing: 0.005em;
+}
+.fitness__tittle h2 {
+    font-size: 6.8rem;
+    line-height: 1;
+    font-weight: 600;
+    letter-spacing: -0.007em;
+}
+
+/* safety  */
+.safety {
+    padding: 16rem 0;
+    background-color: #000;
+}
+
+.safety .safety__desc h4 {
+    font-size: 2.2rem;
+    margin-bottom: 3.2rem;
+    line-height: 1.1666666667;
+    font-weight: 600;
+    letter-spacing: 0.005em;
+}
+
+.safety .safety__desc p {
+    font-size: 1.8rem;
+    line-height: 1.24;
+    font-weight: 600;
+    letter-spacing: 0.014em;
+    color: #868689;
+}
+
+.safety .safety__desc strong {
+    color: white;
+}
+
+.safety__hero {
+    width: 68%;
+    margin-top: 12rem;
+}
+
+.safety__callout {
+    background: linear-gradient(90deg, #303087, #33658a);
+    border-radius: 2rem;
+    padding-top: 2.4rem;
+    padding-bottom: 2.4rem;
+    color: white;
+}
+
+.safety__callout span {
+    font-size: 4.6rem;
+    line-height: 1.2;
+    font-weight: 600;
+    letter-spacing: -0.006em;
+}
+
+.safety__callout p {
+    font-size: 1.68rem;
+    line-height: 1.2105263158;
+    font-weight: 600;
+    letter-spacing: 0.004em;
+    margin-left: 1.2rem;
+}
+
+.safety__sos {
+    margin-top: 1.8rem;
+    border-radius: 2rem;
+    background-color: #111111;
+    padding: 4rem 2.4rem 6rem;
+    min-height: 27rem;
+}
+
+.safety__sos img {
+    display: inline-block;
+    width: 5.8rem;
+    height: 5.8rem;
+}
+
+.safety__sos p {
+    font-size: 1.7rem;
+    line-height: 1.2105263158;
+    font-weight: 600;
+    letter-spacing: 0.012em;
+    color: #868689;
+    margin-top: 2.4rem;
+}
+.safety__sos strong {
+    color: white;
+}
