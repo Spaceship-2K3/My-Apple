@@ -1,6 +1,6 @@
 /*================ Hero ================ */
 .hero {
-    margin-top: -1.4rem;
+    /* margin-top: -1.4rem; */
 }
 
 .hero-item {
@@ -60,7 +60,6 @@
 .promo .row {
     margin: 1.2rem 0 0;
     padding: 0;
-    flex-wrap: nowrap;
     color: var(--color-text-white);
 }
 .promo .col {

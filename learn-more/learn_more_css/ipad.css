@@ -1,0 +1,210 @@
+/* hero */
+.hero {
+    padding: 8rem 0;
+    text-align: center;
+}
+
+.hero .hero__overview {
+    width: 100%;
+    display: block;
+    margin-left: 20%;
+}
+.hero__desc h2 {
+    font-size: 6.2rem;
+    line-height: 1.109375;
+    font-weight: 600;
+    letter-spacing: -0.0025em;
+    color: black;
+    margin: 2rem 0 2.4rem;
+}
+
+.hero__desc p {
+    font-size: 1.8rem;
+    line-height: 1.4211026316;
+    font-weight: 400;
+    letter-spacing: 0.0075em;
+}
+
+.hero__desc .btn {
+    margin-top: 1.3rem;
+    text-decoration: none;
+    font-size: 1.6rem;
+    padding: 0 1.8rem;
+}
+
+.hero__features {
+    background-image: url(../img/Ipad/features__ipad.jpg);
+    height: 118.9rem;
+    background-repeat: no-repeat;
+    background-size: 132rem 115rem;
+    background-position: center;
+    margin-top: 6rem;
+    display: flex;
+    justify-content: center;
+}
+
+.hero__features-title {
+    font-size: 5.4rem;
+    line-height: 1.484375;
+    font-weight: 700;
+    letter-spacing: -0.0045em;
+    padding-top: 20%;
+}
+
+/* design */
+.design h2 {
+    font-size: 7.2rem;
+    line-height: 1.0416666667;
+    font-weight: 700;
+    letter-spacing: -0.015em;
+    margin-bottom: 4.8rem;
+}
+
+.design p {
+    font-size: 1.9rem;
+    line-height: 1.381002381;
+    font-weight: 600;
+    letter-spacing: 0.011em;
+    color: #86868b;
+}
+
+.design strong {
+    color: black;
+}
+
+/* design__meet-hero */
+.design__meet-hero {
+    margin-top: 4.8rem;
+}
+.design__meet-hero img {
+    width: 100%;
+}
+
+.design__meet-unlock-img {
+    margin-top: 145%;
+    transform: translateX(420%);
+
+    display: block;
+}
+
+/* design__draw */
+.design__draw {
+    margin: 4.8rem 0;
+}
+.design__draw-icon,
+.iPadOS__icon,
+.chip__icon,
+.trackpad__icon,
+.AR-icon {
+    width: 6rem;
+    margin-bottom: 2rem;
+}
+
+.design__draw-img {
+    width: 75%;
+    margin: 2.4rem 0 0 0;
+}
+
+/* iPadOS */
+
+.iPadOS__img-desc,
+.AR-img-desc {
+    margin: 0.8rem 0 1.8rem 100%;
+    display: inline-block;
+    width: 9.6rem;
+}
+
+.iPadOS__img,
+.AR-img,
+.games__ipad {
+    width: 100%;
+}
+
+/* quick-work */
+
+.quick-work {
+    margin: 18rem 0;
+}
+
+/* quick-work__take-notes */
+.quick-work__take-notes {
+    margin: 6rem 0;
+}
+
+.quick-work__take-notes-img-2 {
+    width: 80%;
+    margin-top: 3rem;
+}
+
+/* draw__4k */
+.draw__4k {
+    overflow: hidden;
+    margin: 7rem 0;
+}
+
+.draw__4k .draw__4k-img {
+    width: 160rem;
+}
+
+.draw__4k .draw__4k-icon {
+    width: 100%;
+    margin-top: 60%;
+    transform: translateX(-166px);
+}
+
+/* design__audio */
+.design__audio {
+    margin-top: 4.8rem;
+}
+
+.design__audio-img {
+    width: 100%;
+}
+
+.design__audio-desc img {
+    margin-bottom: 2rem;
+}
+
+/* design__camera */
+.design__camera {
+    margin: 4.8rem 0;
+}
+.design__camera .design__camera-hero {
+    width: 100%;
+}
+
+.design__camera-desc .design__camera-img {
+    width: 100%;
+}
+
+/* chip */
+.chip__img,
+.trackpad__img {
+    width: 100%;
+}
+
+/* trackpad */
+
+.trackpad {
+    margin-top: 6rem;
+}
+
+.trackpad__img {
+    width: 100%;
+    height: 66em;
+    object-fit: cover;
+}
+
+/* amazing-app */
+.amazing-app {
+    margin-top: 16rem;
+}
+.amazing-app__img {
+    width: 90%;
+    margin-top: 4rem;
+}
+
+.watch-learn__img {
+    margin-top: 12rem;
+    margin-bottom: 12rem;
+}
