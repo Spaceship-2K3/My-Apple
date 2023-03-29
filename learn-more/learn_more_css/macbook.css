@@ -1,0 +1,365 @@
+body,
+.footer,
+.footer .directory .footer-title,
+.footer .directory a {
+    background-color: black;
+    color: var(--color-text-white);
+    color: #86868b;
+}
+.footer .directory a {
+    color: #bdbdbd;
+}
+
+h1 {
+    font-size: 8.2rem;
+    line-height: 1.0416666667;
+    font-weight: 600;
+    letter-spacing: -0.015em;
+    color: white;
+}
+
+h2 {
+    font-size: 7.4rem;
+    line-height: 1.05;
+    font-weight: 600;
+    color: white;
+    letter-spacing: -0.015em;
+}
+
+h3 {
+    font-size: 5.2rem;
+    line-height: 1.0714285714;
+    font-weight: 600;
+    letter-spacing: -0.005em;
+    color: white;
+}
+
+h4 {
+    font-size: 3rem;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0em;
+    color: rgb(255, 255, 255);
+}
+p:not(.footer p) {
+    font-size: 1.8rem;
+    line-height: 1.125;
+    font-weight: 500;
+    letter-spacing: 0.004em;
+}
+strong {
+    color: white;
+}
+
+/* hero */
+.hero-img {
+    width: 100%;
+}
+
+.hero-desc p {
+    width: 80rem;
+    margin: 3.2rem auto 2.4rem;
+}
+
+.hero .btn {
+    font-size: 1.7rem;
+    text-decoration: none;
+    padding: 0.6rem 2rem;
+}
+
+.text-c {
+    font-size: 1.2rem !important;
+    font-weight: 400;
+    letter-spacing: -0.016em;
+    color: #a1a1a6;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/* performance-chips */
+
+.performance-chips {
+    margin: 18rem 0;
+}
+
+.performance-chips__bgi {
+    background-image: url(../img/Mac/m2_bg__bgi.jpg);
+    background-size: 107rem 74rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50rem;
+}
+
+.performance-chips__bgi .col.l-6 {
+    display: flex;
+    align-items: center;
+}
+.performance-chips__desc-1 {
+    margin-left: 25%;
+}
+.performance-chips__desc-2 {
+    margin-right: 25%;
+}
+
+.performance-chips__img {
+    width: 65%;
+    margin-bottom: 4rem;
+}
+
+.performance-chips__m2-pro {
+    background-image: linear-gradient(90deg, #ccefff, #60cafc 40%, #3d71ff);
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+}
+.performance-chips__m2-max {
+    background-image: linear-gradient(90deg, #e1cdff, #ad68ff 40%, #9d4dff);
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+/* performance-m2-pro */
+.performance-m2-pro h3,
+.performance-m2-max h3 {
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(45deg, #ccefff, #60cafc 18%, #2f65ff);
+}
+
+.performance-m2-pro p,
+.performance-m2-max p {
+    margin: 2.4rem 0 8rem 0;
+}
+
+.performance-m2-pro__improve,
+.performance-m2-max__improve {
+    background-image: url(../img/Mac/wild_beasts_staticframe__img__heromacbook.jpg);
+    height: 70rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0.9;
+}
+
+/* performance-m2-pro__improve */
+
+.performance-m2-pro__improve h4,
+.performance-m2-max__improve h4 {
+    padding-top: 8rem;
+    position: relative;
+}
+
+.performance-m2-pro__improve h4::before,
+.performance-m2-max__improve h4::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 42.5%;
+    left: 0;
+    height: 4px;
+    width: 12%;
+    background: rgb(255, 255, 255);
+}
+
+.performance-m2-pro__img,
+.performance-m2-max__img {
+    width: 80%;
+
+    margin-top: 8rem;
+}
+
+/* .performance-m2-max  */
+.performance-m2-max {
+    margin-top: 16rem;
+}
+.performance-m2-max h3 {
+    background-image: linear-gradient(45deg, #e1cdff, #a56cff 18%, #5d2eff);
+}
+
+.performance-m2-max__improve {
+    background-image: url(../img/Mac/img__heromacbook.jpg);
+}
+
+/* choose-size */
+.choose-size {
+    margin: 16rem 0;
+}
+
+.choose-size__img {
+    margin: 8rem auto 4rem;
+    width: 100%;
+}
+
+/* battery */
+.battery .battery__hero {
+    margin: 6rem 0 4rem;
+}
+
+.battery__hours {
+    margin: 6rem 0 8rem 0;
+}
+
+.battery__hours-title {
+    font-size: 24px;
+    line-height: 1.1666666667;
+    font-weight: 600;
+    letter-spacing: 0.009em;
+    color: white;
+    border-bottom: 1px solid var(--color-border-white);
+    padding-bottom: 1.4rem;
+    width: 80%;
+}
+
+.battery__time {
+    margin-top: 1.4rem;
+}
+
+.battery__time p {
+    font-size: 1.3rem;
+    line-height: 1.2353641176;
+    font-weight: 400;
+    letter-spacing: -0.022em;
+    margin: 1.2rem 0;
+}
+
+.battery__time h5 {
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0em;
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(90deg, #438ffe -5%, #3d82fe 105%);
+}
+
+.battery__time strong {
+    background-image: linear-gradient(90deg, #2368ff -5%, #0c43db 185%);
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+    font-size: 5.8rem;
+    margin-right: 0.8rem;
+}
+
+.battery__fan-col,
+.battery__storage {
+    background-color: rgb(21, 21, 23);
+    padding: 3.2rem 0 0 4.2rem;
+    border-radius: 1.2rem;
+    overflow: hidden;
+    min-height: 58rem;
+}
+
+.battery__fan-col img {
+    width: 100%;
+}
+
+.battery__storage {
+    padding: 3.2rem 4.2rem;
+}
+
+.battery__storage h4 {
+    font-size: 4.8rem;
+    line-height: 1.08349;
+    font-weight: 600;
+    letter-spacing: -0.003em;
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-image: radial-gradient(
+        at 80% 20%,
+        #60cafc 0%,
+        #a56cff 60%,
+        #5d2eff 130%
+    );
+    margin-top: 25%;
+}
+
+.battery__storage h4 strong {
+    font-size: 8.2rem;
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-image: radial-gradient(
+        at 80% 20%,
+        #60cafc 0%,
+        #a56cff 60%,
+        #5d2eff 130%
+    );
+}
+
+/* display */
+.display__hero {
+    width: 100%;
+    margin-top: 6rem;
+}
+#display__desc-line {
+    font-size: 2.2rem;
+    line-height: 1.1428571429;
+    font-weight: 600;
+    letter-spacing: 0.007em;
+    margin: 4.2rem 0;
+}
+
+.display__specifications h3 {
+    font-size: 12rem;
+    color: #a1a1a6;
+}
+
+.display__specifications span {
+    font-size: 1.4rem;
+    line-height: 1.1904761905;
+    font-weight: 600;
+    letter-spacing: 0.011em;
+    color: rgb(220, 220, 220);
+    margin: 1rem 0 2.8rem 0;
+    display: inline-block;
+}
+
+.display__detail-hero {
+    background-image: url(../img/Mac/xdr_pixels__fy02mv4k06qi_large.jpg);
+    width: 100%;
+    height: 65rem;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#display__detail-hero-text-right {
+    text-align: right;
+    position: absolute;
+    top: 50%;
+    transform: translateX(160%);
+    font-size: 1.9rem;
+}
+#display__detail-hero-text-left {
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    font-size: 1.9rem;
+    transform: translateX(90%);
+}
+
+/* plug-and-play */
+
+.plug-and-play {
+    margin-top: 16rem;
+}
+
+.plug-and-play h2 {
+    margin-bottom: 8rem;
+}
+
+.plug-and-play__imgs {
+    margin-top: 8rem;
+}
+.plug-and-play__imgs img {
+    width: 100%;
+    display: block;
+    border-radius: 2rem;
+    margin: 1.4rem auto;
+    width: 80%;
+}
