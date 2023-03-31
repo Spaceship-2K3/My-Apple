@@ -1,0 +1,250 @@
+body,
+.footer,
+.footer .directory .footer-title,
+.footer .directory a {
+    background-color: black;
+    color: var(--color-text-white);
+    color: #86868b;
+}
+.footer .directory a {
+    color: #bdbdbd;
+}
+
+/* hero */
+.hero img {
+    width: 100%;
+    height: 68rem;
+    object-fit: contain;
+}
+
+.hero .btn {
+    font-size: 1.9rem;
+    padding: 0 2.4rem;
+    text-decoration: none;
+}
+.hero h3 {
+    font-size: 4.8rem;
+    line-height: 2;
+    font-weight: 600;
+    letter-spacing: -0.0029166667em;
+    color: #fff;
+}
+
+/* buy-headline  */
+.buy-headline {
+    text-align: center;
+    margin: 16rem 0;
+}
+
+.buy-headline__wapper {
+    position: relative;
+    height: 70rem;
+}
+.buy-headline__hero {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.buy-headline__desc {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-25%);
+}
+
+.buy-headline__desc h2 {
+    font-size: 10rem;
+    line-height: 1;
+    font-weight: 600;
+    letter-spacing: -0.015em;
+    color: #fff;
+}
+
+.buy-headline__desc p {
+    margin: 2.4rem;
+    font-size: 1.8rem;
+    line-height: 1.4211026316;
+    font-weight: 600;
+    letter-spacing: 0.012em;
+}
+
+.buy-headline__desc .btn {
+    font-size: 17px;
+    line-height: 1.1764805882;
+    font-weight: 400;
+    letter-spacing: -0.022em;
+    text-decoration: none;
+    padding: 1rem 2.5rem;
+}
+
+/* high-audio */
+.high-audio .high-audio-title,
+.high-IQ-title {
+    font-size: 3.2rem;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: -0.00038em;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #424245;
+}
+
+.high-audio__headline h2 {
+    margin: 4.8rem 0;
+    font-size: 96px;
+    line-height: 1.0416666667;
+    font-weight: 600;
+    letter-spacing: -0.015em;
+    color: #fff;
+}
+
+.high-audio__headline p,
+.high-IQ-desc p {
+    color: var(--color-border-white);
+    font-size: 2.6rem;
+    line-height: 1.2858342857;
+    font-weight: 600;
+    letter-spacing: 0.0071428571em;
+}
+
+/* engine-audio */
+.engine-audio {
+    margin: 12rem 0;
+}
+
+.engine-audio__hero {
+    width: 100%;
+}
+
+.engine-audio__desc h4 {
+    padding-top: 2.8rem;
+    border-top: 1px solid #424245;
+    font-size: 2.1rem;
+    line-height: 1.381002381;
+    font-weight: 600;
+    letter-spacing: 0.011em;
+    color: #fff;
+}
+.engine-audio__desc p {
+    margin: 2.6rem 0 6rem 0;
+    font-size: 1.7rem;
+    line-height: 1.4211026316;
+    font-weight: 600;
+    letter-spacing: 0.012em;
+}
+
+/* sound */
+.sound-hero,
+.sound-room-hero {
+    width: 100%;
+}
+
+.sound-desc p,
+.sound-desc h3,
+.sound-room-desc h3,
+.sound-room-desc p,
+.cinematic-desc h3,
+.cinematic-desc p {
+    padding-top: 2.4rem;
+    border-top: 1px solid #424245;
+}
+.sound-desc h3,
+.sound-room-desc h3,
+.cinematic-desc h3 {
+    font-size: 3rem;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: -0.00038em;
+    color: #fff;
+}
+
+.sound-desc p,
+.sound-room-desc p,
+.cinematic-desc p {
+    font-size: 1.9rem;
+    line-height: 1.381;
+    font-weight: 600;
+    letter-spacing: 0.011em;
+    margin-bottom: 8rem;
+}
+
+/* .cinematic */
+.cinematic-hero {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.cinematic-apps {
+    margin-bottom: 6rem;
+}
+
+.cinematic-apps img {
+    width: 80%;
+}
+
+/* high-IQ */
+.high-IQ-desc h2 {
+    font-size: 9.6rem;
+    color: #fff;
+    line-height: 1.0416666667;
+    font-weight: 600;
+    letter-spacing: -0.015em;
+    margin: 6rem 0 4.8rem 0;
+}
+
+/* siri */
+.siri {
+    margin: 10rem 0;
+}
+.siri-item,
+.siri-lock {
+    display: flex;
+    align-items: center;
+    margin: 1.4rem 0;
+}
+
+.siri-item p {
+    font-size: 4.5rem;
+    line-height: 1.0834933333;
+    font-weight: 600;
+    letter-spacing: -0.003em;
+    color: white;
+    margin-left: 2rem;
+}
+.siri-item strong,
+.hey-siri strong {
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(
+        90deg,
+        #f74efe 0%,
+        #74c6fb 40%,
+        #60d1f1 75%,
+        #0cfcc7
+    );
+}
+
+.siri-lock {
+    margin-top: 4rem;
+}
+
+.siri-lock p {
+    font-size: 2rem;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0.011em;
+    margin-left: 3rem;
+}
+
+.hey-siri img {
+    width: 100%;
+}
+
+.hey-siri h3 {
+    font-size: 52px;
+    line-height: 1.0770830769;
+    font-weight: 600;
+    letter-spacing: 0.0042307692em;
+    color: #fff;
+}
