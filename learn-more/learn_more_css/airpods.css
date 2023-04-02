@@ -1,0 +1,362 @@
+body {
+    background-color: #000;
+    color: #6e6e73;
+}
+
+.hight-light {
+    color: #00ff41;
+}
+
+strong {
+    color: white;
+}
+
+/* hero */
+.hero {
+    position: relative;
+}
+.hero .sub-hero {
+    width: 38%;
+    margin-top: 6rem;
+}
+
+.hero-wrapper {
+    background-image: url(../img/Airpods/hero.jpg);
+    height: 40rem;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 110rem 63rem;
+    background-position: center;
+}
+.hero-desc {
+    position: absolute;
+    top: 45%;
+    text-align: center;
+    width: 100%;
+    left: 0;
+}
+
+.hero-desc p {
+    font-size: 30px;
+    line-height: 1;
+    font-weight: 600;
+    letter-spacing: 0em;
+}
+
+.hero-desc h1 {
+    font-size: 15rem;
+    line-height: 1;
+    font-weight: 700;
+    color: #e8e8e8;
+    margin-top: 3rem;
+}
+
+.hero-desc .btn {
+    font-size: 1.9rem;
+    padding: 0 2rem;
+    text-decoration: none;
+    margin-top: 2.6rem;
+}
+
+/* sub-title */
+.sub-heading {
+    margin: 16rem 0 12rem 0;
+}
+
+.sub-heading h2 {
+    font-size: 10rem;
+    color: white;
+    line-height: 0.9166666667;
+    font-weight: 700;
+    letter-spacing: -0.025em;
+    margin: 25rem 0 10rem 0;
+}
+
+.sub-heading h3 {
+    font-size: 4.8rem;
+    line-height: 1.2;
+    font-weight: 600;
+    letter-spacing: 0.021rem;
+    color: white;
+}
+
+.sub-heading-hero {
+    width: 100%;
+    margin-top: 12rem;
+}
+
+/* audio-performance */
+.audio-performance {
+    margin: 16rem 0;
+}
+.audio-performance-headline,
+.noise-cancellation-headline,
+.magical-headline {
+    color: white;
+}
+.audio-performance-headline h3,
+.noise-cancellation-headline h3,
+.magical-headline h3 {
+    font-size: 3.2rem;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: 0.04rem;
+}
+
+.audio-performance-headline h2,
+.noise-cancellation-headline h2,
+.magical-headline h2 {
+    font-size: 12rem;
+    line-height: 0.9166666667;
+    font-weight: 600;
+    letter-spacing: -0.0166666667em;
+    margin: 3.6rem 0 6rem 0;
+}
+.audio-performance-headline p,
+.noise-cancellation-headline p,
+.magical-headline p {
+    font-size: 2.9rem;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: 0.04rem;
+}
+
+/* chip */
+.chip {
+    margin: 12rem 0;
+}
+.chip .bento {
+    border-top: 1px solid rgb(66, 66, 69);
+    border-bottom: 1px solid rgb(66, 66, 69);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chip .bento-wrapper {
+    width: 140rem;
+    display: flex;
+}
+
+.chip .bento-item {
+    border-left: 1px solid rgb(66, 66, 69);
+    border-right: 1px solid rgb(66, 66, 69);
+    flex: 1;
+}
+.chip .bento-item:first-child {
+    border-right: none;
+}
+
+.chip .bento-item .chip-h2-img {
+    width: 50rem;
+    height: 50rem;
+    object-fit: cover;
+}
+
+.chip .bento-item p {
+    width: 70%;
+    font-size: 2.4rem;
+    line-height: 1.145;
+    font-weight: 600;
+    letter-spacing: 0.07rem;
+}
+
+/* engine */
+.engine-item {
+    margin: 10rem 0;
+}
+.engine-desc p {
+    font-size: 2rem;
+    line-height: 1.1904761905;
+    font-weight: 600;
+    letter-spacing: 0.011em;
+}
+
+.engine-img {
+    width: 36rem;
+}
+
+.engine-img-right {
+    display: inline-block;
+    margin-left: 40%;
+}
+
+/* overview */
+.overview {
+    display: flex;
+    justify-content: center;
+}
+
+.overview-wrapper {
+    width: 140rem;
+    background-position: center;
+    background-image: url(../img/Airpods/noise_reduction_endframe__cc0juowjdaia_medium_2x.jpg);
+    height: 120.8rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.overview-img {
+    width: 36.5rem;
+}
+
+/* noise-cancellation */
+.noise-cancellation {
+    margin: 16rem 0;
+}
+
+/* .noise-cancellation-headline */
+.noise-cancellation .bento {
+    display: flex;
+    justify-content: center;
+    margin: 8rem 0;
+    border-top: 1px solid rgb(66, 66, 69);
+    border-bottom: 1px solid rgb(66, 66, 69);
+}
+
+.noise-cancellation .bento-wrapper {
+    width: 140rem;
+    display: flex;
+}
+.noise-cancellation .bento-item {
+    flex: 1;
+    border-left: 1px solid rgb(66, 66, 69);
+    border-right: 1px solid rgb(66, 66, 69);
+    overflow: hidden;
+    height: 90rem;
+}
+
+.noise-cancellation .bento-item:first-child {
+    border-right: none;
+}
+
+.noise-cancellation .bento-item-col-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.noise-cancellation .bento-item-col {
+    height: 40%;
+    padding: 0 4rem;
+    border-bottom: 1px solid rgb(66, 66, 69);
+}
+.noise-cancellation .bento-item-col:last-child {
+    border-bottom: none;
+    height: 60%;
+}
+
+.noise-cancellation .bento-item-col p {
+    font-size: 2.4rem;
+    line-height: 1.1428571429;
+    font-weight: 600;
+    letter-spacing: 0.007em;
+}
+
+.noise-cancellation .bento-item-col.bento-item-col__has-bgi {
+    background-image: url(../img/Airpods/noise_cancel_particle__e2ew4rzcyjee_medium_2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.noise-cancellation .bento-item-col.bento-item-col__has-bgi p {
+    font-size: 2rem;
+    line-height: 1.2;
+    font-weight: 600;
+    letter-spacing: 0.011em;
+    text-align: center;
+    color: #fff;
+}
+
+.noise-cancellation .bento-item-col.bento-item-col__has-bgi p strong {
+    font-size: 120px;
+    line-height: 0.9166666667;
+    font-weight: 600;
+    letter-spacing: -0.0166666667em;
+}
+
+.noise-cancellation .bento-item .bento-item-microphones-img {
+    width: 50rem;
+    margin-top: 20rem;
+}
+
+.bento-item-microphones-img-wrapper {
+    position: relative;
+}
+.noise-cancellation .bento-item-microphones-img-wrapper::before {
+    content: "";
+    position: absolute;
+    height: 0.7rem;
+    width: 0.7rem;
+    background-color: #6e6e73;
+    top: 20%;
+    display: inline-block;
+    left: 59.6%;
+    border-radius: 50%;
+}
+.noise-cancellation .bento-item-microphones-img-wrapper::after {
+    content: "";
+    position: absolute;
+    height: 32rem;
+    width: 1px;
+    background-color: #6e6e73;
+    top: -24%;
+    display: inline-block;
+    left: 60%;
+    border-radius: 50%;
+}
+
+.noise-cancellation .bento-item-microphones {
+    padding: 8rem 0 0 8rem;
+}
+
+.noise-cancellation .bento-item-microphones-desc {
+    width: 68%;
+    font-size: 1.9rem;
+    line-height: 1.1904761905;
+    font-weight: 600;
+    letter-spacing: 0.011em;
+}
+
+/* acoustic-seal */
+.acoustic-seal {
+}
+
+.acoustic-seal-desc,
+.magical-intro p {
+    font-size: 2.1rem;
+    line-height: 1.1904761905;
+    font-weight: 600;
+    letter-spacing: 0.011em;
+    margin-bottom: 12rem;
+}
+
+.acoustic-seal-img-small {
+    height: 20rem;
+}
+
+.acoustic-seal-img-small__desc {
+    font-size: 2rem;
+    line-height: 1.2;
+    font-weight: 600;
+    letter-spacing: 0em;
+    margin-top: 4.8rem;
+}
+
+.acoustic-seal-img-big {
+    width: 80%;
+}
+
+/* magical */
+.magical {
+    margin: 12rem 0;
+}
+
+.magical-intro img {
+    width: 80%;
+    margin-left: 20%;
+}
+
+.magical-intro-item {
+    margin: 8rem 0;
+}

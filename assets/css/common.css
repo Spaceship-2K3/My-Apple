@@ -121,6 +121,7 @@ main {
 .header nav {
     display: flex;
     justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .header .nav-list {
