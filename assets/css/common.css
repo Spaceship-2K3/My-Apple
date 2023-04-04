@@ -48,6 +48,18 @@ main {
     opacity: 0.9;
 }
 
+.add-to-bag {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 1.4rem;
+    font-size: 1.6rem;
+    line-height: 1.17648;
+    font-weight: 400;
+    letter-spacing: -0.022em;
+    text-decoration: none;
+    border-radius: 0.8rem;
+}
+
 /* common */
 
 .text-center {

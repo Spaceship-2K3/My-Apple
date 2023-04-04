@@ -1,7 +1,5 @@
 /*.banner-advertising  */
-
 .banner-advertising {
-    max-width: 98rem;
     margin: 1.6rem auto 0;
 }
 .banner-advertising {
@@ -312,7 +310,7 @@
 }
 
 .product_type-desc-item-camera {
-    min-height: 2.28rem;
+    min-height: 20.28rem;
 }
 .product_type-desc-item-battery {
     min-height: 12.8rem;
