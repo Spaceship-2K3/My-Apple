@@ -173,9 +173,10 @@
 
 /* buy trip */
 .product .buy-trip {
-    margin-top: 2.4rem;
+    margin-top: 4rem;
     background-color: #fff;
     padding: 0 8rem;
+    text-align: center;
 }
 
 .product .buy-trip .row {

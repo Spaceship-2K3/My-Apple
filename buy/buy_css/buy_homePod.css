@@ -1,0 +1,317 @@
+/* product  */
+.product .product-img {
+    width: 100%;
+}
+
+.buy-trip {
+    background-color: #fff;
+    margin-bottom: 1.6rem;
+    padding: 2rem 0;
+    border-bottom: 1px solid var(--color-border-white);
+    text-align: center;
+}
+
+.buy-trip h3,
+.feedback h3 {
+    font-size: 1.2rem;
+    line-height: 1.33337;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    margin: 0;
+}
+
+.feedback .feedback-content {
+    margin-left: 1.2rem;
+}
+
+.product-content-col {
+    margin-left: 5rem;
+}
+.product-content {
+    margin-top: 10rem;
+}
+
+.product-content h1 {
+    font-size: 4.2rem;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0;
+    margin: 0 0 3rem 0;
+}
+
+.product-title-new {
+    color: #bf4800;
+    font-size: 1.7rem;
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -0.022em;
+}
+
+.product_choose-color h3 {
+    font-size: 1.8rem;
+    line-height: 1.47059;
+    font-weight: 600;
+    letter-spacing: -0.022em;
+}
+
+.product input {
+    display: none;
+}
+
+.btn-choose-color label {
+    border: 1px solid;
+    border-radius: 1.2rem;
+    padding: 4rem 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1.8px solid var(--color-border-white);
+}
+
+.product input:checked ~ label {
+    border-color: #0071e3;
+    box-shadow: 0 0 0rem 0.15rem #66b1fc;
+}
+
+.btn-choose-color p {
+    margin-top: 0.6rem;
+}
+
+.product_choose-color .btn-choose-color {
+    padding: 0 0.8rem;
+}
+
+/* summary */
+.summary {
+    width: 100%;
+    padding: 3rem;
+    border-radius: 1.2rem;
+    background-color: #fafafa;
+    margin-top: 8rem;
+}
+
+.summary .price h2 {
+    font-size: 3.2rem;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: 0.004em;
+}
+
+.summary .price {
+    padding-bottom: 1.4rem;
+    border-bottom: 1px solid var(--color-border-white);
+    margin-bottom: 1.4rem;
+}
+
+.transport {
+    margin: 2.4rem 0 3rem 0;
+}
+
+.transport-desc {
+    display: flex;
+    font-size: 1.4rem;
+    line-height: 1.42859;
+
+    letter-spacing: -0.016em;
+    margin: 1.4rem 0 0 0;
+}
+.transport-desc strong {
+    color: #000;
+    font-weight: 500;
+}
+
+.transport-desc a {
+    text-decoration: none;
+}
+.transport-desc a:hover {
+    text-decoration: underline;
+}
+
+.transport-desc p {
+    margin-left: 1.1rem;
+}
+
+/* lightbox */
+.lightbox {
+    margin-top: 6rem;
+}
+.lightbox .lightbox-list {
+    display: flex;
+    transition: transform 0.5s;
+}
+.lightbox .lightbox-list:hover {
+    transform: scale(1.05);
+}
+
+.lightbox-item {
+    flex: 1;
+    cursor: pointer;
+}
+.lightbox img {
+    width: 100%;
+    height: 14rem;
+    object-fit: cover;
+}
+
+/* product-show */
+.product-show {
+    margin: 14rem 0;
+}
+.product-show h2,
+.product_different h2 {
+    font-size: 4rem;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.product-show-imgs {
+    display: flex;
+    background-color: #fafafa;
+    justify-content: space-between;
+    padding: 0 8rem;
+    box-shadow: var(--box-shadow-product-show);
+    border-radius: 1.2rem;
+    width: 100%;
+}
+
+.product-show-imgs {
+    height: 39rem;
+}
+
+.product-show-imgs img:nth-child(2) {
+    margin-left: -31rem;
+}
+.product-show-imgs img:last-child {
+    margin-left: -16rem;
+}
+
+.product-show p {
+    font-size: 1.3rem;
+    line-height: 1.42859;
+    letter-spacing: -0.016em;
+    margin: 2.4rem;
+}
+
+.product-show-desc .col:first-child p {
+    text-align: right;
+    margin-right: 4rem;
+}
+.product-show-desc .col:nth-child(2) p {
+    text-align: right;
+    margin-right: 7rem;
+}
+.product-show-desc .col:last-child p {
+    text-align: right;
+    margin-right: 6rem;
+}
+
+.environmental {
+    text-align: center;
+    margin-top: 4.4rem;
+    color: #6e6e73;
+    font-size: 1.3rem;
+    line-height: 1.42859;
+    font-weight: 400;
+    letter-spacing: -0.016em;
+}
+
+.environmental a {
+    color: var(--color-link);
+}
+
+/* product_different */
+.product_different {
+    text-align: center;
+}
+
+.product_different .row {
+    width: 58rem;
+    margin: 0 auto;
+}
+
+.product_type-wrap {
+    margin: 2.4rem 0 4rem 0;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid var(--color-border-white);
+}
+
+.product_type {
+    text-decoration: none;
+    color: black;
+}
+.product_type:hover {
+    color: var(--color-link);
+}
+
+.product_type-sub-title,
+.product_type-desc p {
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: -0.016em;
+}
+
+.product_type h3 {
+    font-size: 24px;
+    line-height: 1.16667;
+    font-weight: 600;
+    letter-spacing: 0.009em;
+
+    margin: 2rem 0 1.2rem 0;
+}
+
+.dots img {
+    margin-top: 2rem;
+}
+
+.product_type-desc-item {
+    margin-top: 4rem;
+}
+
+/* apple-music */
+.apple-music {
+    background-color: #f5f5f7;
+    margin-top: 12rem;
+    padding-top: 4rem;
+}
+
+.apple-music-wrapper {
+    overflow: hidden;
+}
+
+.apple-music-hero {
+    height: 48rem;
+}
+
+.apple-music-desc h2 {
+    font-size: 4.8rem;
+    line-height: 1.08349;
+    font-weight: 600;
+    letter-spacing: -0.003em;
+    margin: 2rem 0 2.7rem 0;
+}
+
+.apple-music-link,
+.apple-music-link a {
+    color: var(--color-link);
+    text-decoration: none;
+    font-size: 1.9rem;
+    line-height: 1.381;
+    letter-spacing: 0.011em;
+}
+
+.apple-music-link i {
+    font-size: 1.5rem;
+}
+
+.apple-music-link a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    margin-top: 2rem;
+}
