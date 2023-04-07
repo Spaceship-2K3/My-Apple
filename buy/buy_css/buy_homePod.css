@@ -124,6 +124,7 @@
 
 .transport-desc a {
     text-decoration: none;
+    color: var(--color-link);
 }
 .transport-desc a:hover {
     text-decoration: underline;
