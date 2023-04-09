@@ -8,10 +8,11 @@
     display: flex;
     width: 37rem;
     margin: 0 auto;
+    justify-content: center;
 }
 
 .product-item-img {
-    flex: 1;
+    width: 5rem;
     padding-bottom: 0.6rem;
     margin: 0 0.6rem;
     cursor: pointer;
