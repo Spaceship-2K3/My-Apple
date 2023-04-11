@@ -25,6 +25,7 @@
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
         />
+        <script src="../main/sliderDots.js" async></script>
     </head>
     <body>
         <!-- Header -->
@@ -178,21 +179,74 @@
                         <div class="col l-7">
                             <div class="product__desc">
                                 <div class="product_desc-galery">
-                                    <img
-                                        src="./img/Mac/16-gallery1.jpg"
-                                        alt=""
-                                        class="galery"
-                                    />
+                                    <div class="slider-wrapper-js">
+                                        <div class="slider-main-js">
+                                            <div class="slider-item-js">
+                                                <img
+                                                    src="./img/mac/16-gallery1.jpg"
+                                                    alt=""
+                                                />
+                                            </div>
+                                            <div class="slider-item-js">
+                                                <img
+                                                    src="./img/mac/16-gallery2.jpg"
+                                                    alt=""
+                                                />
+                                            </div>
+                                            <div class="slider-item-js">
+                                                <img
+                                                    src="./img/mac/16-gallery3.jpg"
+                                                    alt=""
+                                                />
+                                            </div>
+                                            <div class="slider-item-js">
+                                                <img
+                                                    src="./img/mac/16-gallery4.jpg"
+                                                    alt=""
+                                                />
+                                            </div>
+                                            <div class="slider-item-js">
+                                                <img
+                                                    src="./img/mac/16-gallery5.jpg"
+                                                    alt=""
+                                                />
+                                            </div>
+                                            <div class="slider-item-js">
+                                                <img
+                                                    src="./img/mac/16-gallery6.jpg"
+                                                    alt=""
+                                                />
+                                            </div>
+                                            <div class="slider-item-js">
+                                                <img
+                                                    src="./img/mac/16-gallery7.jpg"
+                                                    alt=""
+                                                />
+                                            </div>
+                                            <div class="slider-item-js">
+                                                <img
+                                                    src="./img/mac/16-gallery8.jpg"
+                                                    alt=""
+                                                />
+                                            </div>
+                                            <div class="slider-item-js">
+                                                <img
+                                                    src="./img/mac/16-gallery9.jpg"
+                                                    alt=""
+                                                />
+                                            </div>
+                                        </div>
+                                    </div>
                                     <div class="pagination">
                                         <button
-                                            class="pagination-left btn-pagination f-center"
+                                            class="pagination-left btn-pagination f-center btn-prev-js"
                                         >
                                             <i
                                                 class="fa-solid fa-angle-left"
                                             ></i>
                                         </button>
                                         <button
-                                            class="pagination-right btn-pagination f-center"
+                                            class="pagination-right btn-pagination f-center btn-next-js"
                                         >
                                             <i
                                                 class="fa-solid fa-angle-right"
@@ -200,14 +254,18 @@
                                         </button>
                                     </div>
                                     <div class="dots">
-                                        <span class="dot active"></span>
-                                        <span class="dot"></span>
-                                        <span class="dot"></span>
-                                        <span class="dot"></span>
-                                        <span class="dot"></span>
-                                        <span class="dot"></span>
-                                        <span class="dot"></span>
-                                        <span class="dot"></span>
+                                        <span
+                                            data-index="0"
+                                            class="dot active"
+                                        ></span>
+                                        <span data-index="1" class="dot"></span>
+                                        <span data-index="2" class="dot"></span>
+                                        <span data-index="3" class="dot"></span>
+                                        <span data-index="4" class="dot"></span>
+                                        <span data-index="5" class="dot"></span>
+                                        <span data-index="6" class="dot"></span>
+                                        <span data-index="7" class="dot"></span>
+                                        <span data-index="8" class="dot"></span>
                                     </div>
                                 </div>
                             </div>
