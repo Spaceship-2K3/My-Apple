@@ -342,7 +342,6 @@ main {
 
 /* ============ JS ============  */
 .slider-wrapper-js {
-    /* width: 100%; */
     overflow: hidden;
     box-shadow: var(--box-shadow-product);
     border-radius: 12px;
@@ -359,4 +358,55 @@ main {
 
 .dots .dot {
     cursor: pointer;
+}
+
+/* LightBox */
+.lightBox-show-js {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(117, 117, 117, 0.9);
+}
+
+.lightBox-show-js .lightBox-content-js {
+    width: 60%;
+    position: relative;
+    margin-top: 4rem;
+}
+
+.lightBox-show-js .lightBox-pagination-js {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    top: 50%;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+
+.lightBox-show-js .btn-pagination {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 100rem;
+    margin: 0 1rem;
+    font-size: 2.7rem;
+}
+
+.lightBox-show-js .btn-close-js {
+    position: absolute;
+    right: 2rem;
+    top: 2rem;
+    color: rgba(0, 0, 0, 0.56);
+    font-size: 3rem;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.lightBox-show-js .lightBox-img-js {
+    width: 100%;
+    height: 50rem;
+    object-fit: cover;
+    border-radius: 20px;
 }
