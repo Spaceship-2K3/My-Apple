@@ -393,7 +393,7 @@ main {
     font-size: 2.7rem;
 }
 
-.lightBox-show-js .btn-close-js {
+.lightBox-show-js button.btn-close-js {
     position: absolute;
     right: 2rem;
     top: 2rem;
