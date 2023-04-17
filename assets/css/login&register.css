@@ -52,6 +52,7 @@
     text-align: left;
     font-size: 1.3rem;
     display: flex;
+    width: 40%;
     align-items: center;
 }
 .form .create-user img {

@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Bag - Apple</title>
+        <link rel="stylesheet" href="./assets/css/reset.css" />
+        <link rel="stylesheet" href="./assets/css/grid.css" />
+        <link rel="stylesheet" href="./assets/css/common.css" />
+        <link rel="stylesheet" href="./assets/css/bag.css" />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="./assets/img/favicon.jpg"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        />
+    </head>
+    <!-- Landing page -->
+    <body>
+        <!-- Header -->
+        <header class="header">
+            <div class="grid wide middle-wide">
+                <nav>
+                    <ul class="nav-list nav-left">
+                        <li class="nav-item">
+                            <a href="./index.html" class="logo">
+                                <img
+                                    src="./assets/img/favicon.jpg"
+                                    alt="Logo"
+                                />
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="">Mac</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="">Ipad</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="">Iphone</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="">Watch</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="">AirPods</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="">TV & Home</a>
+                        </li>
+                    </ul>
+                    <ul class="nav-list nav-right">
+                        <li class="nav-item">
+                            <a href="./support.html">Support</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="15px"
+                                    height="4rem"
+                                    viewBox="0 0 15 44"
+                                >
+                                    <path
+                                        d="M14.298,27.202l-3.87-3.87c0.701-0.929,1.122-2.081,1.122-3.332c0-3.06-2.489-5.55-5.55-5.55c-3.06,0-5.55,2.49-5.55,5.55 c0,3.061,2.49,5.55,5.55,5.55c1.251,0,2.403-0.421,3.332-1.122l3.87,3.87c0.151,0.151,0.35,0.228,0.548,0.228 s0.396-0.076,0.548-0.228C14.601,27.995,14.601,27.505,14.298,27.202z M1.55,20c0-2.454,1.997-4.45,4.45-4.45 c2.454,0,4.45,1.997,4.45,4.45S8.454,24.45,6,24.45C3.546,24.45,1.55,22.454,1.55,20z"
+                                    ></path>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="">
+                                <svg
+                                    height="4rem"
+                                    viewBox="0 0 14 44"
+                                    width="14"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        d="m11.3535 16.0283h-1.0205a3.4229 3.4229 0 0 0 -3.333-2.9648 3.4229 3.4229 0 0 0 -3.333 2.9648h-1.02a2.1184 2.1184 0 0 0 -2.117 2.1162v7.7155a2.1186 2.1186 0 0 0 2.1162 2.1167h8.707a2.1186 2.1186 0 0 0 2.1168-2.1167v-7.7155a2.1184 2.1184 0 0 0 -2.1165-2.1162zm-4.3535-1.8652a2.3169 2.3169 0 0 1 2.2222 1.8652h-4.4444a2.3169 2.3169 0 0 1 2.2222-1.8652zm5.37 11.6969a1.0182 1.0182 0 0 1 -1.0166 1.0171h-8.7069a1.0182 1.0182 0 0 1 -1.0165-1.0171v-7.7155a1.0178 1.0178 0 0 1 1.0166-1.0166h8.707a1.0178 1.0178 0 0 1 1.0164 1.0166z"
+                                    ></path>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="">
+                                <img
+                                    class="icon-user"
+                                    src="./assets/img/Login/user.png"
+                                    alt=""
+                                />
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <!-- bag-header  -->
+            <div class="bag-header">
+                <div class="grid wide small-wide">
+                    <h1 class="heading">Review your bag.</h1>
+                    <p class="sub-heading">Free delivery and free returns.</p>
+                    <div class="installment-banner f-center">
+                        <div class="installment-banner-wrapper">
+                            <img
+                                src="./assets/img/Bag/applecard-logo.jpg"
+                                alt="applecard-logo"
+                            />
+
+                            <p>
+                                Items not purchased with a one time payment may
+                                be eligible for $41.50/mo.per month at 0% APR◊
+                                when you check out with Apple Card Monthly
+                                Installments.
+                                <a href="./learn-more/Card.html">Learn more</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- bag-product -->
+            <div class="bag-product">
+                <div class="grid wide small-wide">
+                    <div class="row">
+                        <div class="col l-3">
+                            <!-- bag-product-img -->
+                            <div class="bag-product-img">
+                                <img
+                                    src="./assets/img/Bag/HPU82.jpg"
+                                    alt="HPU82"
+                                />
+                            </div>
+                        </div>
+
+                        <div class="col l-9">
+                            <!-- bag-product-desc -->
+                            <div class="bag-product-desc">
+                                <div class="row">
+                                    <div class="col l-9 col-name-quantity">
+                                        <div class="bag-product-name">
+                                            <h2 class="product-name">
+                                                Belkin BOOST↑CHARGE™ PRO 3-in-1
+                                                Wireless Charging Pad with
+                                                MagSafe
+                                            </h2>
+                                            <p>Pay 0% APR for 6 months:</p>
+                                        </div>
+
+                                        <input
+                                            type="number"
+                                            min="1"
+                                            value="1"
+                                            class="bag-product-quantity"
+                                        />
+                                    </div>
+
+                                    <!-- bag-product-price -->
+                                    <div class="col l-3 text-right">
+                                        <div class="bag-product-price">
+                                            <h2 class="product-price">$249</h2>
+                                            <p class="product-price-for-month">
+                                                $<span>41.5</span>/mo.
+                                            </p>
+                                            <a href="#!" class="btn-clear">
+                                                Remove
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="bag-product-pickup">
+                                    <div class="row">
+                                        <div class="col l-12">
+                                            <h4>
+                                                Find out how soon you can get
+                                                this item.
+                                            </h4>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col l-6">
+                                            <div
+                                                class="bag-product-pickup-desc"
+                                            >
+                                                <svg
+                                                    viewBox="0 0 25 25"
+                                                    class="as-svgicon as-svgicon-shipping as-svgicon-reduced as-svgicon-shippingreduced"
+                                                    role="img"
+                                                    aria-hidden="true"
+                                                    width="25px"
+                                                    height="25px"
+                                                >
+                                                    <path
+                                                        fill="none"
+                                                        d="M0 0h25v25H0z"
+                                                    ></path>
+                                                    <path
+                                                        d="M19.69 7.154l-6-3.245a2.5 2.5 0 00-2.38 0l-6 3.245A2.5 2.5 0 004 9.354v6.269a2.5 2.5 0 001.311 2.2l6 3.245a2.5 2.5 0 002.379 0l6-3.245a2.5 2.5 0 001.31-2.2V9.354a2.5 2.5 0 00-1.31-2.2zm-7.9-2.365a1.492 1.492 0 011.427 0l6 3.244a1.454 1.454 0 01.151.11l-2.931 1.665-6.743-3.886zM8.661 6.48l6.768 3.9-2.929 1.666-6.864-3.9a1.456 1.456 0 01.151-.11zM5.787 16.941A1.5 1.5 0 015 15.622V9.354a1.5 1.5 0 01.053-.39L12 12.912v7.358a1.463 1.463 0 01-.213-.083zM20 15.622a1.5 1.5 0 01-.786 1.319l-6 3.245a1.5 1.5 0 01-.214.084v-7.358l6.947-3.949a1.508 1.508 0 01.053.391z"
+                                                    ></path>
+                                                </svg>
+                                                <p>
+                                                    In stock and ready to ship.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="col l-6">
+                                            <div
+                                                class="bag-product-pickup-desc"
+                                            >
+                                                <svg
+                                                    viewBox="0 0 25 25"
+                                                    class="as-svgicon as-svgicon-applestorepickup as-svgicon-reduced as-svgicon-applestorepickupreduced"
+                                                    role="img"
+                                                    aria-hidden="true"
+                                                    width="25px"
+                                                    height="25px"
+                                                >
+                                                    <path
+                                                        fill="none"
+                                                        d="M0 0h25v25H0z"
+                                                    ></path>
+                                                    <path
+                                                        d="M18.5 5h-1.775a4.231 4.231 0 00-8.45 0H6.5A2.5 2.5 0 004 7.5v11A2.5 2.5 0 006.5 21h12a2.5 2.5 0 002.5-2.5v-11A2.5 2.5 0 0018.5 5zm-6-3a3.245 3.245 0 013.225 3h-6.45A3.245 3.245 0 0112.5 2zM20 18.5a1.5 1.5 0 01-1.5 1.5h-12A1.5 1.5 0 015 18.5v-11A1.5 1.5 0 016.5 6h12A1.5 1.5 0 0120 7.5z"
+                                                    ></path>
+                                                    <path
+                                                        d="M14.4 12.448a1.592 1.592 0 01.738-1.328 1.607 1.607 0 00-1.37-.687c-.52 0-.941.317-1.22.317s-.663-.3-1.129-.3a1.861 1.861 0 00-1.739 2.068 4.32 4.32 0 00.723 2.3c.346.491.648.883 1.084.883s.617-.287 1.144-.287c.55 0 .663.279 1.137.279s.791-.43 1.084-.853a3.24 3.24 0 00.474-.989 1.516 1.516 0 01-.926-1.403zM12.583 10.357a1.346 1.346 0 00.941-.5 1.594 1.594 0 00.361-.974.731.731 0 00-.008-.136 1.5 1.5 0 00-1.016.528 1.547 1.547 0 00-.384.943c0 .053.008.106.008.128.03.004.06.011.098.011z"
+                                                    ></path>
+                                                </svg>
+                                                <p>
+                                                    Pick up at an Apple Store
+                                                    near you.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- bag-total -->
+            <div class="bag-total">
+                <div class="grid wide small-wide">
+                    <div class="bag-total-summary">
+                        <div class="row">
+                            <div class="col l-6">
+                                <p>Subtotal</p>
+                                <p>Shipping</p>
+                                <p>
+                                    Estimated tax for:
+                                    <a href="#!"> Enter zip code </a>
+                                </p>
+                            </div>
+                            <div class="col l-6 text-right">
+                                <p>$<span>249</span></p>
+                                <p>FREE</p>
+                                <p>$ –</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bag-total-price">
+                        <div class="row">
+                            <div class="col l-6">
+                                <h3>Total</h3>
+                            </div>
+                            <div class="col l-6 text-right">
+                                <h3>$249</h3>
+                                <a
+                                    class="bag-total-price-card"
+                                    href="./buy/buy_card.html"
+                                    >Get Daily Cash with Apple Card</a
+                                >
+
+                                <a href="#!" class="btn">Check Out</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- bag-productspotlight -->
+            <div class="bag-product-spotlight text-center">
+                <div class="grid wide small-wide">
+                    <div class="bag-product-spotlight-wrapper">
+                        <div class="row">
+                            <div class="col l-6">
+                                <div class="bag-product-spotlight-desc">
+                                    <h2>New Arrivals</h2>
+                                    <p>Check out the latest accessories.</p>
+
+                                    <span>
+                                        <a href="#!"> Shop </a>
+                                        <i class="fa-solid fa-angle-right"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="grid wide middle-wide">
+                <div class="policy">
+                    <p>
+                        Apple Card Monthly Installments (ACMI) is a 0% APR
+                        payment option available only in the U.S. to select at
+                        checkout for certain Apple products purchased at Apple
+                        Store locations, apple.com, the Apple Store app, or by
+                        calling 1-800-MY-APPLE, and is subject to credit
+                        approval and credit limit. See
+                        support.apple.com/kb/HT211204 for more information about
+                        eligible products. Variable APRs for Apple Card other
+                        than ACMI range from 15.49% to 26.49% based on
+                        creditworthiness. Rates as of March 1, 2023. If you
+                        choose the pay in full or one time payment option for an
+                        ACMI eligible purchase instead of choosing ACMI as the
+                        payment option at checkout, that purchase will be
+                        subject to the variable APR assigned to your Apple Card.
+                        Taxes and shipping are not included in ACMI and are
+                        subject to your card’s variable APR. See the Apple Card
+                        Customer Agreement for more information. ACMI is not
+                        available for purchases made online at the following
+                        special stores: Apple Employee Purchase Plan;
+                        participating corporate Employee Purchase Programs;
+                        Apple at Work for small businesses; Government, and
+                        Veterans and Military Purchase Programs, or on
+                        refurbished devices. iPhone activation required on
+                        iPhone purchases made at an Apple Store with one of
+                        these national carriers: AT&T, Verizon, or T-Mobile.
+                    </p>
+
+                    <p>
+                        Trade-in values will vary based on the condition, year,
+                        and configuration of your eligible trade-in device. Not
+                        all devices are eligible for credit. You must be at
+                        least 18 years old to be eligible to trade in for credit
+                        or for an Apple Gift Card. Trade-in value may be applied
+                        toward qualifying new device purchase, or added to an
+                        Apple Gift Card. Actual value awarded is based on
+                        receipt of a qualifying device matching the description
+                        provided when estimate was made. Sales tax may be
+                        assessed on full value of a new device purchase.
+                        In-store trade-in requires presentation of a valid photo
+                        ID (local law may require saving this information).
+                        Offer may not be available in all stores, and may vary
+                        between in-store and online trade-in. Some stores may
+                        have additional requirements. Apple or its trade-in
+                        partners reserve the right to refuse or limit quantity
+                        of any trade-in transaction for any reason. More details
+                        are available from Apple’s trade-in partner for trade-in
+                        and recycling of eligible devices. Restrictions and
+                        limitations may apply.
+                    </p>
+                    <p>
+                        Apple Card is issued by Goldman Sachs Bank USA, Salt
+                        Lake City Branch.
+                    </p>
+                    <p>
+                        Learn more about how Apple Card applications are
+                        evaluated at
+                        <a href="#!">support.apple.com/kb/HT209218.</a>
+                    </p>
+                </div>
+
+                <div class="directory">
+                    <div class="row">
+                        <div class="col l-2-4">
+                            <!--Shop and Learn  -->
+                            <ul>
+                                <li class="footer-title">Shop and Learn</li>
+                                <li>
+                                    <a href="  #! ">Store</a>
+                                </li>
+                                <li>
+                                    <a href="  #! ">Mac</a>
+                                </li>
+                                <li>
+                                    <a href="  #! ">iPad</a>
+                                </li>
+                                <li>
+                                    <a href="  #! ">iPhone </a>
+                                </li>
+                                <li>
+                                    <a href="  #! ">Watch </a>
+                                </li>
+                                <li>
+                                    <a href="  #! ">AirPods </a>
+                                </li>
+                                <li>
+                                    <a href="  #! ">TV & Home </a>
+                                </li>
+                                <li>
+                                    <a href="  #! ">AirTag </a>
+                                </li>
+                                <li>
+                                    <a href="  #! ">Accessories </a>
+                                </li>
+                                <li>
+                                    <a href="  #! ">Gift Cards </a>
+                                </li>
+                            </ul>
+
+                            <!-- Apple Wallet -->
+                            <ul>
+                                <li class="footer-title">Apple Wallet</li>
+                                <li>
+                                    <a href="  #! ">Wallet</a>
+                                </li>
+                                <li>
+                                    <a href="#!">Apple Card</a>
+                                </li>
+                                <li>
+                                    <a href="#!">Apple Pay</a>
+                                </li>
+                                <li>
+                                    <a href="#!">Apple Cash</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col l-2-4">
+                            <!-- Account -->
+                            <ul>
+                                <li class="footer-title">Account</li>
+                                <li>
+                                    <a href="  #! ">Manage Your Apple ID</a>
+                                </li>
+                                <li>
+                                    <a href="  #! ">Apple Store Account </a>
+                                </li>
+                                <li>
+                                    <a href="  #! ">iCloud.com</a>
+                                </li>
+                            </ul>
+
+                            <!-- Entertainment -->
+                            <ul>
+                                <li class="footer-title">Entertainment</li>
+                                <li>
+                                    <a href="  #! ">Apple One</a>
+                                </li>
+                                <li>
+                                    <a href="#!">Apple TV+</a>
+                                </li>
+                                <li>
+                                    <a href="#!">Apple Music</a>
+                                </li>
+                                <li>
+                                    <a href="#!">Apple Arcade</a>
+                                </li>
+                                <li>
+                                    <a href="#!">Apple Fitness+</a>
+                                </li>
+                                <li>
+                                    <a href="#!">Apple News+</a>
+                                </li>
+                                <li>
+                                    <a href="#!">Apple Podcasts</a>
+                                </li>
+                                <li>
+                                    <a href="#!">Apple Books</a>
+                                </li>
+                                <li>
+                                    <a href="#!">App Store</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col l-2-4">
+                            <!-- Apple Store -->
+                            <ul>
+                                <li class="footer-title">Shop and Learn</li>
+                                <li>
+                                    <a href="  #! ">Find a Store</a>
+                                </li>
+                                <li>
+                                    <a href="  #! ">Genius Bar</a>
+                                </li>
+                                <li>
+                                    <a href="  #! ">Today at Apple</a>
+                                </li>
+                                <li>
+                                    <a href="  #! ">Apple Camp </a>
+                                </li>
+                                <li>
+                                    <a href="  #! ">Apple Store App </a>
+                                </li>
+                                <li>
+                                    <a href="  #! ">Certified Refurbished </a>
+                                </li>
+                                <li>
+                                    <a href="  #! ">Financing </a>
+                                </li>
+                                <li>
+                                    <a href="  #! ">Apple Trade In </a>
+                                </li>
+                                <li>
+                                    <a href="  #! ">Order Status </a>
+                                </li>
+                                <li>
+                                    <a href="  #! ">Shopping Help </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col l-2-4">
+                            <!-- For Business -->
+                            <ul>
+                                <li class="footer-title">For Business</li>
+                                <li>
+                                    <a href="  #! ">Apple and Business</a>
+                                </li>
+                                <li>
+                                    <a href="  #! ">Shop for Business</a>
+                                </li>
+                            </ul>
+
+                            <!-- For Education -->
+                            <ul>
+                                <li class="footer-title">Apple Wallet</li>
+                                <li>
+                                    <a href="  #! ">Apple and Education</a>
+                                </li>
+                                <li>
+                                    <a href="#!">Shop for K-12</a>
+                                </li>
+                                <li>
+                                    <a href="#!">Shop for College</a>
+                                </li>
+                            </ul>
+
+                            <!--For Healthcare  -->
+                            <ul>
+                                <li class="footer-title">For Healthcare</li>
+                                <li>
+                                    <a href="  #! ">Apple in Healthcare</a>
+                                </li>
+                                <li>
+                                    <a href="#!">Health on Apple Watch</a>
+                                </li>
+                                <li>
+                                    <a href="#!">Health Records on iPhone</a>
+                                </li>
+                            </ul>
+
+                            <!-- For Government -->
+                            <ul>
+                                <li class="footer-title">For Government</li>
+                                <li>
+                                    <a href="  #! ">Shop for Government</a>
+                                </li>
+                                <li>
+                                    <a href="#!"
+                                        >Shop for Veterans and Military</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col l-2-4">
+                            <!-- Apple Values -->
+                            <ul>
+                                <li class="footer-title">Apple Values</li>
+                                <li>
+                                    <a href="  #! ">Accessibility</a>
+                                </li>
+                                <li>
+                                    <a href="  #! ">Education</a>
+                                </li>
+                                <li>
+                                    <a href="  #! ">Environment</a>
+                                </li>
+                                <li>
+                                    <a href="  #! ">Inclusion and Diversity </a>
+                                </li>
+                                <li>
+                                    <a href="  #! ">Privacy </a>
+                                </li>
+                                <li>
+                                    <a href="  #! "
+                                        >Racial Equity and Justice
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="  #! ">Supplier Responsibility </a>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li class="footer-title">About Apple</li>
+                                <li>
+                                    <a href="  #! ">Newsroom</a>
+                                </li>
+                                <li>
+                                    <a href="#!">Apple Leadership</a>
+                                </li>
+                                <li>
+                                    <a href="#!">Career Opportunities</a>
+                                </li>
+                                <li>
+                                    <a href="#!">Investors</a>
+                                </li>
+                                <li>
+                                    <a href="#!">Ethics & Compliance</a>
+                                </li>
+                                <li>
+                                    <a href="#!">Events</a>
+                                </li>
+                                <li>
+                                    <a href="#!">Contact Apple</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col l-12">
+                            <p class="call">
+                                More ways to shop:
+                                <a href="#!">Find an Apple Store</a> or
+                                <a href="#!"> other retailer</a> near you. Or
+                                call 0373575729-VanSang.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <p class="copyright">
+                    <span>
+                        Copyright © 2023 Spaceship-2K3. All rights reserved.
+                    </span>
+
+                    <span>Viet Nam</span>
+                </p>
+            </div>
+        </footer>
+    </body>
+</html>
