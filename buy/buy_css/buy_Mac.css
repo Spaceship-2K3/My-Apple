@@ -4,12 +4,6 @@
     margin-top: 8rem;
 }
 
-.product_desc-galery img {
-    width: 100%;
-    height: 50.8rem;
-    object-fit: cover;
-    border-radius: 12px;
-}
 .product__desc .product_desc-galery {
     position: relative;
 }
