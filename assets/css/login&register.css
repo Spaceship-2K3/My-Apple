@@ -103,7 +103,7 @@
     position: absolute;
 }
 
-.form .social-list {
+.form .social-list-app {
     display: flex;
     gap: 1rem;
 }
