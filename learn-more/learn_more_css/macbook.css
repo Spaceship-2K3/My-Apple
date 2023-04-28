@@ -27,7 +27,7 @@ h2 {
 }
 
 h3:not(.nav-item-hover-tittle) {
-    font-size: 5.2rem;
+    font-size: 5.2rem;                       
     line-height: 1.0714285714;
     font-weight: 600;
     letter-spacing: -0.005em;

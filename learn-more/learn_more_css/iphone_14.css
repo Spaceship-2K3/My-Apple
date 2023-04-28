@@ -19,7 +19,7 @@ h2 {
     letter-spacing: -0.005em;
 }
 
-h3 {
+h3:not(.nav-item-hover-tittle) {
     font-size: 3.2rem;
     line-height: 1.125;
     font-weight: 600;

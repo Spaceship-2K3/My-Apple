@@ -325,6 +325,7 @@ main {
     height: 1.2rem;
     border-radius: 100rem;
     background-color: #fff;
+    color: black;
 }
 
 #bag-nav {
