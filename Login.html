@@ -559,18 +559,27 @@
 
         <main>
             <section class="container">
-                <form class="form form-register">
+                <form class="form form-login" action="">
                     <h1>AppleID</h1>
-                    <input
-                        class="input-email"
-                        type="email"
-                        placeholder="Enter your Apple ID"
-                    />
-                    <input
-                        class="input-password"
-                        type="password"
-                        placeholder="Enter your password"
-                    />
+                    <div class="form-control-js">
+                        <input
+                            class="input-email"
+                            id="email-login"
+                            type="email"
+                            placeholder="Enter your Apple ID"
+                        />
+                        <div class="form-error-js"></div>
+                    </div>
+                    <div class="form-control-js">
+                        <input
+                            class="input-password"
+                            id="password-login"
+                            type="password"
+                            placeholder="Enter your password"
+                        />
+                        <div class="form-error-js"></div>
+                    </div>
+
                     <a href="./Register.html" class="create-user">
                         Create your now
                         <img
@@ -578,7 +587,7 @@
                             alt="up-right-arrow"
                         />
                     </a>
-                    <a href="./index.html" class="btn">LOG IN</a>
+                    <button type="submit" class="btn">LOG IN</button>
 
                     <div class="social">
                         <div class="social-text">
@@ -653,4 +662,5 @@
             </div>
         </footer>
     </body>
+    <script src="./main/login.js"></script>
 </html>

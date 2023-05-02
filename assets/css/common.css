@@ -225,6 +225,10 @@ main {
     cursor: default;
 }
 
+.nav-item-click-support {
+    cursor: pointer;
+}
+
 .nav-menu {
     display: flex;
 }

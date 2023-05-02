@@ -559,23 +559,46 @@
 
         <main>
             <section class="container">
-                <form class="form form-register">
+                <form class="form form-register" action="">
                     <h1>Create Your AppleID</h1>
-                    <input
-                        class="input-email"
-                        type="email"
-                        placeholder="Enter your Apple ID"
-                    />
-                    <input
-                        class="input-password"
-                        type="password"
-                        placeholder="Enter your password"
-                    />
-                    <input
-                        class="input-password"
-                        type="password"
-                        placeholder="Confirm password"
-                    />
+
+                    <div class="form-control-js">
+                        <input
+                            class="input-username"
+                            id="username"
+                            type="text"
+                            placeholder="Enter username"
+                        />
+                        <div class="form-error-js"></div>
+                    </div>
+                    <div class="form-control-js">
+                        <input
+                            class="input-email"
+                            id="email"
+                            type="email"
+                            placeholder="Enter your Apple ID"
+                        />
+                        <div class="form-error-js"></div>
+                    </div>
+                    <div class="form-control-js">
+                        <input
+                            class="input-password"
+                            id="password"
+                            type="password"
+                            placeholder="Enter your password"
+                        />
+                        <div class="form-error-js"></div>
+                    </div>
+                    <div class="form-control-js">
+                        <input
+                            class="input-password"
+                            id="cf-password"
+                            type="password"
+                            placeholder="Confirm password"
+                        />
+                        <div class="form-error-js"></div>
+                    </div>
+
                     <a href="./Login.html" class="create-user">
                         Login now
                         <img
@@ -583,7 +606,7 @@
                             alt="up-right-arrow"
                         />
                     </a>
-                    <a href="./Login.html" class="btn">Continue</a>
+                    <button type="submit" class="btn">Continue</button>
 
                     <div class="social">
                         <div class="social-text">
@@ -658,4 +681,5 @@
             </div>
         </footer>
     </body>
+    <script src="./main/register.js"></script>
 </html>
