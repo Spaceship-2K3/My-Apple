@@ -1,8 +1,6 @@
 let form = document.querySelector("form");
-
 let email = document.querySelector("#email-login");
 let password = document.querySelector("#password-login");
-
 let inputElements = document.querySelectorAll("form input");
 function showError(input, message) {
     let parentInput = input.parentElement;
@@ -32,7 +30,7 @@ function checkEmpty(listInput) {
         input.value = input.value.trim();
         if (!input.value) {
             isEmptyError = true;
-            showError(input, "Khong duoc de trong");
+            showError(input, "Not is empty");
         } else {
             showSuccess(input);
         }

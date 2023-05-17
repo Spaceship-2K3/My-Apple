@@ -418,6 +418,13 @@ main {
     margin-top: 1.2rem;
 }
 
+.header .nav-item .nav-menu-user-list .icon-admin {
+    height: 1.6rem;
+    width: 1.5rem;
+    object-fit: contain;
+    margin: 0 4px 0 1px;
+}
+
 /* Choose model, choose storage */
 
 .btn-choose label {
