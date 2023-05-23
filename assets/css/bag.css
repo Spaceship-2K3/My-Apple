@@ -242,3 +242,33 @@
     color: var(--color-link);
     font-size: 1.2rem;
 }
+
+/* bag-empty */
+.bag-empty {
+    background-color: rgb(254, 254, 253);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
+        rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    margin-top: 2rem;
+}
+
+.bag-empty-img {
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+}
+
+.bag-empty-info {
+    padding: 4.8rem;
+}
+.bag-empty-info h3 {
+    font-size: 2rem;
+    line-height: 1.37059;
+    letter-spacing: -0.022em;
+}
+.bag-empty-info .btn {
+    text-decoration: none;
+    margin-top: 2rem;
+    padding: 0 2rem;
+}

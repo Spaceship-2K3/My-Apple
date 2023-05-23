@@ -1,8 +1,14 @@
+// ! get ingredient
 let bagContainer = document.querySelector("#bagContainer");
 let basket = JSON.parse(localStorage.getItem("data")) || [];
 let container = JSON.parse(localStorage.getItem("container")) || [];
 const subTotal = document.querySelector("#subtotal");
 const totalPrice = document.querySelector("#total span");
+const bagTotal = document.querySelector(".bag-total");
+const bagEmpty = document.querySelector("#bag-empty");
+console.log(bagTotal);
+
+// ! getContainer
 let getContainer = function () {
     if (basket.length !== 0) {
         for (let i = 0; i < basket.length; i++) {
@@ -19,6 +25,8 @@ let getContainer = function () {
 };
 
 getContainer();
+
+// ! numberQuantity
 const navQuantity = document.getElementById("nav-quantity-product");
 let numberQuantity = function () {
     basket = JSON.parse(localStorage.getItem("data")) || [];
@@ -30,15 +38,20 @@ let numberQuantity = function () {
             return total + quantity;
         }, 0);
 };
+
+// ! generateProduct
 let generateProduct = function () {
-    bagContainer.innerHTML = container
-        .map(function (item) {
-            let { id, name, color, img, price, link, learnMore } = item;
-            let quantity = JSON.parse(localStorage.getItem("data"));
-            quantity = quantity.find(function (x) {
-                return x.id === item.id;
-            });
-            return `<div class="item-bag" id='${id}'>
+    if (container.length !== 0) {
+        bagTotal.style.display = "block";
+        bagEmpty.style.display = "none";
+        bagContainer.innerHTML = container
+            .map(function (item) {
+                let { id, name, color, img, price, link, learnMore } = item;
+                let quantity = JSON.parse(localStorage.getItem("data"));
+                quantity = quantity.find(function (x) {
+                    return x.id === item.id;
+                });
+                return `<div class="item-bag" id='${id}'>
         <div class="row">
             <div class="col l-4">
                 <img
@@ -157,13 +170,18 @@ let generateProduct = function () {
         </div>
     </div>
 `;
-        })
-        .join("");
-    localStorage.setItem("container", JSON.stringify(container));
-    numberQuantity();
+            })
+            .join("");
+        localStorage.setItem("container", JSON.stringify(container));
+        numberQuantity();
+    } else {
+        bagTotal.style.display = "none";
+        bagEmpty.style.display = "block";
+    }
 };
 generateProduct();
-// todo : increment ,decrement
+
+// ! increment
 let increment = function (id) {
     let basket = JSON.parse(localStorage.getItem("data")) || [];
     let selectorItem = id;
@@ -176,6 +194,8 @@ let increment = function (id) {
     numberQuantity();
     total();
 };
+
+//  ! decrement
 let decrement = function (id) {
     let basket = JSON.parse(localStorage.getItem("data")) || [];
     let selectorItem = id;
@@ -196,6 +216,7 @@ let decrement = function (id) {
     total();
 };
 
+//  ! remove
 let remove = function (id) {
     let searchItem = id;
     let basket = JSON.parse(localStorage.getItem("data")) || [];
@@ -213,6 +234,7 @@ let remove = function (id) {
     // total();
 };
 
+// ! total
 let total = function () {
     let basket = JSON.parse(localStorage.getItem("data")) || [];
     if (basket.length !== 0) {
@@ -233,5 +255,4 @@ let total = function () {
     }
 };
 total();
-
 numberQuantity();
