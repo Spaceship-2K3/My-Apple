@@ -1,5 +1,5 @@
-let basket = JSON.parse(localStorage.getItem("data")) || [];
 let bagContainer = document.querySelector("#bagContainer");
+let basket = JSON.parse(localStorage.getItem("data")) || [];
 let container = JSON.parse(localStorage.getItem("container")) || [];
 const subTotal = document.querySelector("#subtotal");
 const totalPrice = document.querySelector("#total span");
@@ -18,9 +18,19 @@ let getContainer = function () {
     }
 };
 
+getContainer();
+const navQuantity = document.getElementById("nav-quantity-product");
+let numberQuantity = function () {
+    basket = JSON.parse(localStorage.getItem("data")) || [];
+    navQuantity.innerHTML = basket
+        .map(function (item) {
+            return item.item;
+        })
+        .reduce(function (total, quantity) {
+            return total + quantity;
+        }, 0);
+};
 let generateProduct = function () {
-    getContainer();
-
     bagContainer.innerHTML = container
         .map(function (item) {
             let { id, name, color, img, price, link, learnMore } = item;
@@ -150,19 +160,20 @@ let generateProduct = function () {
         })
         .join("");
     localStorage.setItem("container", JSON.stringify(container));
+    numberQuantity();
 };
 generateProduct();
 // todo : increment ,decrement
 let increment = function (id) {
     let basket = JSON.parse(localStorage.getItem("data")) || [];
     let selectorItem = id;
-
     let search = basket.find(function (item) {
         return item.id === selectorItem.id;
     });
     search.item += 1;
     localStorage.setItem("data", JSON.stringify(basket));
     generateProduct();
+    numberQuantity();
     total();
 };
 let decrement = function (id) {
@@ -179,7 +190,9 @@ let decrement = function (id) {
     }
 
     localStorage.setItem("data", JSON.stringify(basket));
+
     generateProduct();
+    numberQuantity();
     total();
 };
 
@@ -220,3 +233,5 @@ let total = function () {
     }
 };
 total();
+
+numberQuantity();
