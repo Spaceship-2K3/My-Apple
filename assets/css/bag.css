@@ -85,7 +85,6 @@
     flex-direction: column;
     display: flex;
     margin-left: 0.8rem;
-    justify-content: center;
 }
 .item-bag-info .quantity .quantity-up-and-down i {
     color: var(--color-link);

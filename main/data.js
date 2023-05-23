@@ -1,38 +1,71 @@
-let dataProductNoChoose = [
+// ! Bag
+let dataProduct = [
     {
-        id: "macProS",
+        id: "macpros",
         name: "MacBook Pro 16‑inch",
         color: "Space Gray",
-        img: "./assets/img/Bag/product-no-choose/mac16.png",
+        img: "./assets/img/Bag/product/mac16.png",
         price: 2499,
+        learnMore: "../learn-more/MacBook_Pro.html",
         link: "./buy/buy__mac16inch.html",
     },
     {
-        id: "macProA",
+        id: "macproa",
         name: "MacBook Pro 14‑inch",
         color: "Silver",
-        img: "./assets/img/Bag/product-no-choose/mac14.png",
+        img: "./assets/img/Bag/product/mac14.png",
         price: 1999,
+        learnMore: "../learn-more/MacBook_Pro.html",
         link: "./buy/buy__mac14inch.html",
     },
     {
-        id: "macProB",
+        id: "macprob",
         name: "MacBook Pro 13‑inch",
         color: "Space Gray",
-        img: "./assets/img/Bag/product-no-choose/mac13.png",
+        img: "./assets/img/Bag/product/mac13.png",
         price: 1299,
+        learnMore: "../learn-more/MacBook_Pro.html",
         link: "./buy/buy__mac13inch.html",
     },
     {
-        id: "macAir",
+        id: "macair",
         name: "MacBook Air",
         color: "Midnight",
-        img: "./assets/img/Bag/product-no-choose/macAir.png",
+        img: "./assets/img/Bag/product/macAir.png",
         price: 1199,
+        learnMore: "../learn-more/MacBook_Pro.html",
         link: "./buy/buy__macAir.html",
+    },
+    {
+        id: "appro",
+        name: "AirPods Pro (2nd generation)",
+        color: "White",
+        img: "./assets/img/Bag/product/airpodPro2.png",
+        price: 249,
+        learnMore: "../learn-more/AirPods.html",
+        link: "./buy/buy_AirpodsPro.html",
+    },
+    {
+        id: "aprd",
+        name: "AirPods (3rd generation)",
+        color: "White",
+        img: "./assets/img/Bag/product/airpod3rd.png",
+        price: 169,
+        learnMore: "../learn-more/AirPods.html",
+        link: "./buy/buy_Airpod-3nd.html",
+    },
+    {
+        id: "macnd",
+        name: "AirPods (2nd generation)",
+        color: "White",
+        img: "./assets/img/Bag/product/airpod2nd.png",
+        price: 129,
+        learnMore: "../learn-more/AirPods.html",
+        link: "./buy/buy_Airpod-2nd.html",
     },
 ];
 
+// ! Admin
 let dataNewsUpdate = [
     {
         img: "./assets/img/Admin/img1.jpg",
