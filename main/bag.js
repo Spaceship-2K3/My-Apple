@@ -177,6 +177,7 @@ let generateProduct = function () {
     } else {
         bagTotal.style.display = "none";
         bagEmpty.style.display = "block";
+        bagContainer.innerHTML = "";
     }
 };
 generateProduct();
@@ -221,7 +222,7 @@ let generateNavBag = function () {
         localStorage.setItem("container", JSON.stringify(container));
         numberQuantity();
     } else {
-        return;
+        bagNavList.innerHTML = "";
     }
 };
 generateNavBag();
@@ -264,19 +265,20 @@ let decrement = function (id) {
 //  ! remove
 let remove = function (id) {
     let searchItem = id;
-    let basket = JSON.parse(localStorage.getItem("data")) || [];
-    let container = JSON.parse(localStorage.getItem("container")) || [];
+    basket = JSON.parse(localStorage.getItem("data")) || [];
+    container = JSON.parse(localStorage.getItem("container")) || [];
     basket = basket.filter(function (x) {
         return x.id !== searchItem.id;
     });
     container = container.filter(function (x) {
         return x.id !== searchItem.id;
     });
-    // localStorage.setItem("data", JSON.stringify(basket));
-    // localStorage.setItem("container", JSON.stringify(container));
-
-    // generateProduct();
-    // total();
+    localStorage.setItem("data", JSON.stringify(basket));
+    localStorage.setItem("container", JSON.stringify(container));
+    numberQuantity();
+    generateNavBag();
+    generateProduct();
+    total();
 };
 
 // ! total
