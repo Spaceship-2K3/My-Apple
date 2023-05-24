@@ -6,7 +6,7 @@ const subTotal = document.querySelector("#subtotal");
 const totalPrice = document.querySelector("#total span");
 const bagTotal = document.querySelector(".bag-total");
 const bagEmpty = document.querySelector("#bag-empty");
-console.log(bagTotal);
+const bagNavList = document.querySelector("#bag-nav-list");
 
 // ! getContainer
 let getContainer = function () {
@@ -181,6 +181,50 @@ let generateProduct = function () {
 };
 generateProduct();
 
+// ! generateNavBag
+let generateNavBag = function () {
+    basket = JSON.parse(localStorage.getItem("data")) || [];
+    container = JSON.parse(localStorage.getItem("container")) || [];
+    if (container.length !== 0) {
+        bagNavList.innerHTML = container
+            .map(function (item) {
+                let { id, name, color, img, price, link, learnMore } = item;
+                let quantity = JSON.parse(localStorage.getItem("data"));
+                quantity = quantity.find(function (x) {
+                    return x.id === item.id;
+                });
+                return ` <div class="bag-nav-item">
+                <img
+                    src="${img}"
+                    alt=""
+                    class="bag-nav-item-img"
+                />
+                
+                    <p class="bag-nav-title">
+                    <span
+                        class="bag-nav-product-name"
+                        >${name}</span
+                    >
+                    -
+                    <span
+                        class="bag-nav-product-color"
+                        >${color}</span
+                    >
+                    - X${quantity.item}
+                    </p>
+                   
+            </div>
+            
+            `;
+            })
+            .join("");
+        localStorage.setItem("container", JSON.stringify(container));
+        numberQuantity();
+    } else {
+        return;
+    }
+};
+generateNavBag();
 // ! increment
 let increment = function (id) {
     let basket = JSON.parse(localStorage.getItem("data")) || [];
@@ -192,6 +236,7 @@ let increment = function (id) {
     localStorage.setItem("data", JSON.stringify(basket));
     generateProduct();
     numberQuantity();
+    generateNavBag();
     total();
 };
 
@@ -210,7 +255,7 @@ let decrement = function (id) {
     }
 
     localStorage.setItem("data", JSON.stringify(basket));
-
+    generateNavBag();
     generateProduct();
     numberQuantity();
     total();

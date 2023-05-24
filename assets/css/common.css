@@ -361,13 +361,13 @@ main {
 #bag-nav-list .bag-nav-item {
     display: flex;
     align-items: center;
-    margin: 1.2rem 0;
 }
 
 #bag-nav-list .bag-nav-item img {
     width: 7.2rem;
     height: 7.2rem;
-    object-fit: cover;
+    object-fit: contain;
+    display: inline-block;
 }
 
 #bag-nav-list .bag-nav-item p {
