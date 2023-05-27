@@ -15,4 +15,8 @@ let generateItem = function (id) {
         return;
     }
     localStorage.setItem("data", JSON.stringify(basket));
+    getContainer();
+
+    numberQuantity();
+    generateNavBag();
 };

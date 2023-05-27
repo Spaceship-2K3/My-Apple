@@ -1,5 +1,3 @@
-let basket = JSON.parse(localStorage.getItem("data")) || [];
-let container = JSON.parse(localStorage.getItem("container")) || [];
 const bagNavList = document.querySelector("#bag-nav-list");
 
 // ! getContainer
@@ -35,6 +33,10 @@ let numberQuantity = function () {
         }, 0);
 };
 
+function removeFirstDot(string) {
+    return string.replace(/^\./, "");
+}
+
 // ! generateNavBag
 let generateNavBag = function () {
     basket = JSON.parse(localStorage.getItem("data")) || [];
@@ -44,6 +46,7 @@ let generateNavBag = function () {
         bagNavList.innerHTML = container
             .map(function (item) {
                 let { id, name, color, img, price, link, learnMore } = item;
+                img = removeFirstDot(img);
                 let quantity = JSON.parse(localStorage.getItem("data"));
                 quantity = quantity.find(function (x) {
                     return x.id === item.id;
