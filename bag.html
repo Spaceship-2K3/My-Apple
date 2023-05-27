@@ -471,6 +471,27 @@
         </header>
 
         <main>
+            <!-- popup -->
+            <div
+                id="wrapper-popup"
+                class="wrapper-popup"
+                onclick="closePopup()"
+            >
+                <div class="popup" id="popup">
+                    <img src="./assets/img/Bag/404-tick.png" />
+                    <i onclick="closePopup()" class="fa-solid fa-xmark"></i>
+                    <h2>Thank you !</h2>
+                    <p>You have successfully purchased</p>
+                    <button
+                        type="button"
+                        class="btn-close-popup"
+                        onclick="closePopup()"
+                    >
+                        OK
+                    </button>
+                </div>
+            </div>
+
             <!-- bag-header  -->
             <div class="grid wide small-wide">
                 <div class="bag-header">
@@ -530,7 +551,12 @@
                                         >Get Daily Cash with Apple Card</a
                                     >
 
-                                    <a href="#!" class="btn">Check Out</a>
+                                    <a
+                                        href="#!"
+                                        onclick="openPopup()"
+                                        class="btn"
+                                        >Check Out</a
+                                    >
                                 </div>
                             </div>
                         </div>

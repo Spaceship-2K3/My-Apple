@@ -7,6 +7,8 @@ const totalPrice = document.querySelector("#total span");
 const bagTotal = document.querySelector(".bag-total");
 const bagEmpty = document.querySelector("#bag-empty");
 const bagNavList = document.querySelector("#bag-nav-list");
+const wrapperPopup = document.querySelector("#wrapper-popup");
+const popup = document.querySelector("#popup");
 
 // ! getContainer
 let getContainer = function () {
@@ -303,3 +305,15 @@ let total = function () {
 };
 total();
 numberQuantity();
+
+// ! Popup()
+let openPopup = function () {
+    wrapperPopup.classList.add("open-popup");
+};
+let closePopup = function () {
+    wrapperPopup.classList.remove("open-popup");
+};
+
+popup.addEventListener("click", function (e) {
+    e.stopPropagation();
+});
