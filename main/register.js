@@ -32,7 +32,7 @@ function checkEmpty(listInput) {
         input.value = input.value.trim();
         if (!input.value) {
             isEmptyError = true;
-            showError(input, "Khong duoc de trong");
+            showError(input, "Not is empty");
         } else {
             showSuccess(input);
         }
@@ -42,7 +42,7 @@ function checkEmpty(listInput) {
 function checkLength(input, min) {
     input.value = input.value.trim();
     if (input.value.length < min) {
-        showError(input, `Phai co it nhat ${min} ky tu`);
+        showError(input, `Must have at least ${min} characters`);
         return true;
     }
     showSuccess(input);
@@ -63,7 +63,7 @@ function checkEmail(input) {
 
 function checkCFPassword(password, cfPassword) {
     if (password.value !== cfPassword.value) {
-        showError(cfPassword, "MK khong truong khop ");
+        showError(cfPassword, "Password does not match ");
         return true;
     }
     return false;
